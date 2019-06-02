@@ -81,7 +81,7 @@ fetch("https://raw.githubusercontent.com/DevScyu/Wynn/master/territories.json")
 	    	bounds[0][0] *= -1;
 	    	bounds[1][0] *= -1;
 	    	let rectangle = L.rectangle(bounds, 
-				{color: "#ff7800", weight: 3}).bindTooltip("",
+				{color: "#ff7800", weight: 2}).bindTooltip("",
 		   		{className: "guild-name", permanent: true, direction:"center"}).openTooltip();
 
 	    	rectangles[territory["name"]] = rectangle;
@@ -129,7 +129,7 @@ function update() {
 					0px 0px 5px ${guildPrefs[guild]["color"]},
 					0px 0px 6px ${guildPrefs[guild]["color"]} !important;'><div class='identifier'>` +
 					guildPrefs[guild]["prefix"] 
-					+ "</div><br><div class='territory'>" 
+					+ "</div><div class='territory'>" 
 					+ territory 
 					+ "</div></div>"
 					);
