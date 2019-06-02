@@ -1,9 +1,7 @@
-
 let guildTerritories = [];
 let images = [];
 let rectangles = [];
 let bounds = [];
-
 let guildPrefs = {
 	"Blacklisted": {
 		"color": "#323232",
@@ -11,6 +9,11 @@ let guildPrefs = {
 	}
 }
 
+const visited = localStorage.getItem('visited');
+if (!visited) {
+	    alert("If you would like to add your guild's preferences (color and prefix), please contact brokenmotor in-game or through discord at regale#5688. Enjoy!");
+	    localStorage.setItem('visited', true);
+	}
 
 function init() {
 	const map = L.map('map', {
