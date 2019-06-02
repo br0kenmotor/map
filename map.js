@@ -97,8 +97,17 @@ function update() {
 	fetch("https://api.wynncraft.com/public_api.php?action=territoryList")
 	.then(response => response.json())
 	.then(json => json["territories"])
-	.then(guildTerritories => {
-		Object.keys(guildTerritories).forEach(territory => {
+	.then(territories => {
+		guildTerritories = territories;
+		render();
+	setTimeout(_ => 
+		{ console.log("Updating..."); update(); }, 3000);
+	})
+}
+
+function render() {
+	Object.keys(guildTerritories).forEach(territory => {
+			guildTerritories 
 
 			let guild = guildTerritories[territory]["guild"];
 
@@ -138,11 +147,11 @@ function update() {
 			}
 		
 	});
-
-	setTimeout(_ => 
-		{ console.log("Updating..."); update(); }, 1000);
-	})
 }
+
+map.on('zoomend', _ => {
+	render();
+})
 
 function hex() {
 	return "#000000"
