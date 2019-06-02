@@ -54,7 +54,7 @@ function init() {
 		    	bounds[0][0] *= -1;
 		    	bounds[1][0] *= -1;
 		    	let rectangle = L.rectangle(bounds, 
-				{color: "#ff7800", weight: 1}).bindTooltip("BLA",
+				{color: "#ff7800", weight: 1}).bindTooltip("",
 		   		{className: "guild-name", permanent: true, direction:"center"}
 		  		).openTooltip()
 

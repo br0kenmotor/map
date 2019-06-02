@@ -9,13 +9,17 @@ body {
 }
 
 .guild-name {
-  background: green;
-  border: 2px solid cyan
+  background: transparent !important;
+  border: transparent !important;
+  color: white !important;
+  font-weight: bold !important;
+  text-shadow: 2px 2px #000000 !important;
+  box-shadow: none !important;
 }
 
 .leaflet-tooltip-left.guild-name::before {
-  border-left-color: cyan;
+  border-left-color: transparent !important;
 }
 .leaflet-tooltip-right.guild-name::before {
-  border-right-color: cyan;
+  border-right-color: transparent !important;
 }
