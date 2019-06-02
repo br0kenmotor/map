@@ -4,10 +4,19 @@ let guildTerritories = [];
 let images = [];
 let rectangles = [];
 let bounds = [];
-let guildPrefs = {
+let guildPrefs = 
+{
 	"Blacklisted": {
 		"color": "#323232",
 		"prefix": "BLA"
+	},
+	"Paladins United": {
+		"color": "#fff0f5",
+		"prefix": "PUN"
+	},
+	"Imperial": {
+		"color": "#990033",
+		"prefix": "Imp"
 	}
 }
 
