@@ -1,0 +1,3098 @@
+[
+    {
+      "name": "Ragni Main Entrance",
+      "start": "-747,-1530",
+      "end": "-616,-1652",
+      "level": 1,
+      "spawnLocation": "-701,68,-1581",
+      "xp": 10
+    },
+    {
+      "name": "Emerald Trail",
+      "start": "-615,-1530",
+      "end": "-436,-1652",
+      "level": 1,
+      "spawnLocation": "-545,68,-1597"
+    },
+    {
+      "name": "Nivla Forest Entrance",
+      "start": "-435,-1530",
+      "end": "-372,-1652",
+      "level": 1,
+      "spawnLocation": "-430,68,-1607",
+      "xp": 25
+    },
+    {
+      "name": "Ragni North Entrance",
+      "start": "-944,-1761",
+      "end": "-818,-1859",
+      "level": 1,
+      "spawnLocation": "-866,62,-1824",
+      "xp": 10
+    },
+    {
+      "name": "Katoa Ranch",
+      "start": "-914,-1860",
+      "end": "-748,-1955",
+      "level": 1,
+      "spawnLocation": "-811,68,-1909",
+      "xp": 25
+    },
+    {
+      "name": "Ragni North Suburbs",
+      "start": "-817,-1859",
+      "end": "-762,-1761",
+      "level": 1,
+      "spawnLocation": "-783,63,-1815",
+      "xp": 10
+    },
+    {
+      "name": "Ragni East Suburbs",
+      "start": "-747,-1653",
+      "end": "-616,-1776",
+      "level": 1,
+      "spawnLocation": "-883,71,-1395",
+      "xp": 10
+    },
+    {
+      "name": "Ragni Plains",
+      "start": "-747,-1776",
+      "end": "-605,-1945",
+      "level": 1,
+      "spawnLocation": "-724,57,-1835",
+      "xp": 10
+    },
+    {
+      "name": "Coastal Trail",
+      "start": "-747,-1946",
+      "end": "-565,-2059",
+      "level": 1,
+      "spawnLocation": "-634,40,-2021"
+    },
+    {
+      "name": "Maltic Coast",
+      "start": "-564,-2059",
+      "end": "-351,-1946",
+      "level": 5,
+      "spawnLocation": "-460,36,-2017",
+      "xp": 50
+    },
+    {
+      "name": "Maltic",
+      "start": "-604,-1945",
+      "end": "-475,-1884",
+      "level": 5,
+      "spawnLocation": "-559,49,-1924"
+    },
+    {
+      "name": "Maltic Plains",
+      "start": "-564,-1883",
+      "end": "-436,-1653",
+      "level": 1,
+      "spawnLocation": "-529,63,-1808",
+      "xp": 25
+    },
+    {
+      "name": "Plains",
+      "start": "-435,-1883",
+      "end": "-270,-1653",
+      "level": 1,
+      "spawnLocation": "-352,70,-1767",
+      "xp": 25
+    },
+    {
+      "name": "Pigmen Ravines Entrance",
+      "start": "-924,-1398",
+      "end": "-784,-1307",
+      "level": 10,
+      "spawnLocation": "-874,74,-1384",
+      "xp": 80
+    },
+    {
+      "name": "Pigmen Ravines",
+      "start": "-784,-1398",
+      "end": "-617,-1317",
+      "level": 10,
+      "spawnLocation": "-673,94,-1390"
+    },
+    {
+      "name": "South Pigmen Ravines",
+      "start": "-898,-1298",
+      "end": "-678,-1221",
+      "level": 10,
+      "spawnLocation": "-744,99,-1284",
+      "xp": 80
+    },
+    {
+      "name": "Little Wood",
+      "start": "-812,-1177",
+      "end": "-636,-1094",
+      "level": 10,
+      "spawnLocation": "-649,100,-1138",
+      "xp": 80
+    },
+    {
+      "name": "Time Valley",
+      "start": "-563,-1261",
+      "end": "-406,-1006",
+      "level": 10,
+      "spawnLocation": "-476,72,-1176"
+    },
+    {
+      "name": "Abandoned Farm",
+      "start": "-577,-1395",
+      "end": "-478,-1335",
+      "level": 10,
+      "spawnLocation": "-492,105,-1346",
+      "xp": 80
+    },
+    {
+      "name": "Animal Bridge",
+      "start": "-324,-1130",
+      "end": "-192,-993",
+      "level": 10,
+      "spawnLocation": "-273,81,-1052"
+    },
+    {
+      "name": "Road to Time Valley",
+      "start": "-461,-1525",
+      "end": "-359,-1412",
+      "level": 5,
+      "spawnLocation": "-416,68,-1477",
+      "xp": 50
+    },
+    {
+      "name": "Elkurn Fields",
+      "start": "-357,-1325",
+      "end": "-99,-1141",
+      "level": 5,
+      "spawnLocation": "-245,71,-1217",
+      "xp": 50
+    },
+    {
+      "name": "Mt. Wynn",
+      "start": "-250,-2069",
+      "end": "20,-1960",
+      "level": 15,
+      "spawnLocation": "-95,84,-1923",
+      "xp": 115
+    },
+    {
+      "name": "Nivla Forest",
+      "start": "-325,-1624",
+      "end": "-196,-1460",
+      "level": 1,
+      "spawnLocation": "-263,72,-1519"
+    },
+    {
+      "name": "Nivla Forest Exit",
+      "start": "-175,-1630",
+      "end": "-105,-1514",
+      "level": 1,
+      "spawnLocation": "-148,69,-1565",
+      "xp": 25
+    },
+    {
+      "name": "South Nivla Forest",
+      "start": "-350,-1440",
+      "end": "-99,-1330",
+      "level": 1,
+      "spawnLocation": "-174,72,-1351",
+      "xp": 25
+    },
+    {
+      "name": "North Nivla Forest",
+      "start": "-194,-1632",
+      "end": "-86,-1800",
+      "level": 1,
+      "spawnLocation": "-116,72,-1723",
+      "xp": 25
+    },
+    {
+      "name": "Elkurn",
+      "start": "-98,-1250",
+      "end": "62,-1080",
+      "level": 1,
+      "spawnLocation": "-4,76,-1154"
+    },
+    {
+      "name": "Road to Elkurn",
+      "start": "-89,-1481",
+      "end": "2,-1267",
+      "level": 1,
+      "spawnLocation": "-63,68,-1352",
+      "xp": 25
+    },
+    {
+      "name": "Corrupted Road",
+      "start": "22,-1479",
+      "end": "96,-1261",
+      "level": 1,
+      "spawnLocation": "70,68,-1312",
+      "xp": 25
+    },
+    {
+      "name": "Nether Gate",
+      "start": "106,-1341",
+      "end": "342,-1222",
+      "level": 10,
+      "spawnLocation": "270,31,-1290"
+    },
+    {
+      "name": "Detlas Far Suburbs",
+      "start": "29,-1657",
+      "end": "188,-1500",
+      "level": 5,
+      "spawnLocation": "98,69,-1534",
+      "xp": 50
+    },
+    {
+      "name": "Detlas Suburbs",
+      "start": "188,-1657",
+      "end": "300,-1500",
+      "level": 5,
+      "spawnLocation": "269,68,-1577"
+    },
+    {
+      "name": "Detlas Close Suburbs",
+      "start": "300,-1657",
+      "end": "389,-1500",
+      "level": 5,
+      "spawnLocation": "368,68,-1601",
+      "xp": 50
+    },
+    {
+      "name": "Detlas",
+      "start": "402,-1657",
+      "end": "536,-1518",
+      "level": 5,
+      "spawnLocation": "442,68,-1612"
+    },
+    {
+      "name": "Farmers Valley",
+      "start": "-474,-1884",
+      "end": "-332,-1945",
+      "level": 5,
+      "spawnLocation": "-430,58,-1883",
+      "xp": 50
+    },
+    {
+      "name": "Nivla Forest Edge",
+      "start": "-74,-1777",
+      "end": "-3,-1485",
+      "level": 1,
+      "spawnLocation": "-48,63,-1597",
+      "xp": 25
+    },
+    {
+      "name": "Battle Tower",
+      "start": "-400,-450",
+      "end": "-315,-330",
+      "level": 40,
+      "spawnLocation": "-350,13,-389"
+    },
+    {
+      "name": "Half Moon Island",
+      "start": "900,-2660",
+      "end": "1100,-2480",
+      "level": 25,
+      "spawnLocation": "980,35,-2538"
+    },
+    {
+      "name": "Mage Island",
+      "start": "860,-2880",
+      "end": "930,-2810",
+      "level": 25,
+      "spawnLocation": "900,42,-2872"
+    },
+    {
+      "name": "Twain Lake",
+      "start": "0,-330",
+      "end": "80,-530",
+      "level": 40,
+      "spawnLocation": "5,77,-443",
+      "xp": 540
+    },
+    {
+      "name": "Twain Mansion",
+      "start": "95,-407",
+      "end": "140,-310",
+      "level": 40,
+      "spawnLocation": "100,75,-359"
+    },
+    {
+      "name": "Bob's Tomb",
+      "start": "246,-747",
+      "end": "380,-867",
+      "level": 35,
+      "spawnLocation": "251,77,-784"
+    },
+    {
+      "name": "Nesaak Plains South East",
+      "start": "76,-757",
+      "end": "230,-660",
+      "level": 35,
+      "spawnLocation": "138,75,-686",
+      "xp": 400
+    },
+    {
+      "name": "Nesaak Plains South West",
+      "start": "70,-820",
+      "end": "-110,-625",
+      "level": 35,
+      "spawnLocation": "-33,73,-724",
+      "xp": 400
+    },
+    {
+      "name": "Nesaak Plains North East",
+      "start": "110,-873",
+      "end": "240,-1035",
+      "level": 35,
+      "spawnLocation": "154,72,-934",
+      "xp": 400
+    },
+    {
+      "name": "Nesaak Plains Lower North West",
+      "start": "70,-834",
+      "end": "-120,-910",
+      "level": 35,
+      "spawnLocation": "-53,72,-855",
+      "xp": 400
+    },
+    {
+      "name": "Nesaak Plains Upper North West",
+      "start": "70,-950",
+      "end": "-140,-1060",
+      "level": 35,
+      "spawnLocation": "-50,72,-974",
+      "xp": 400
+    },
+    {
+      "name": "Nesaak Village",
+      "start": "75,-850",
+      "end": "160,-760",
+      "level": 35,
+      "spawnLocation": "101,74,-791"
+    },
+    {
+      "name": "Nesaak Bridge Transition",
+      "start": "-115,-630",
+      "end": "-240,-780",
+      "level": 35,
+      "spawnLocation": "-190,69,-683",
+      "xp": 400
+    },
+    {
+      "name": "Nesaak Plains Mid North West",
+      "start": "-140,-860",
+      "end": "-180,-980",
+      "level": 35,
+      "spawnLocation": "-153,68,-916",
+      "xp": 400
+    },
+    {
+      "name": "Great Bridge Nesaak",
+      "start": "-275,-620",
+      "end": "-390,-790",
+      "level": 45,
+      "spawnLocation": "-272,68,-691",
+      "xp": 700
+    },
+    {
+      "name": "Great Bridge Jungle",
+      "start": "-395,-790",
+      "end": "-515,-610",
+      "level": 45,
+      "spawnLocation": "-470,70,-701",
+      "xp": 700
+    },
+    {
+      "name": "Jungle Lower",
+      "start": "-515,-610",
+      "end": "-600,-790",
+      "level": 45,
+      "spawnLocation": "-560,69,-674",
+      "xp": 700
+    },
+    {
+      "name": "Jungle Mid",
+      "start": "-600,-610",
+      "end": "-670,-780",
+      "level": 45,
+      "spawnLocation": "-643,62,-655",
+      "xp": 700
+    },
+    {
+      "name": "Jungle Upper",
+      "start": "-671,-779",
+      "end": "-810,-630",
+      "level": 45,
+      "spawnLocation": "-752,78,-679",
+      "xp": 700
+    },
+    {
+      "name": "Jungle Lake",
+      "start": "-599,-789",
+      "end": "-680,-940",
+      "level": 45,
+      "spawnLocation": "-640,60,-888",
+      "xp": 700
+    },
+    {
+      "name": "Temple of Legends",
+      "start": "-631,-973",
+      "end": "-745,-1093",
+      "level": 65,
+      "spawnLocation": "-693,75,-994"
+    },
+    {
+      "name": "City of Troms",
+      "start": "-726,-970",
+      "end": "-899,-826",
+      "level": 50,
+      "spawnLocation": "-861,77,-919"
+    },
+    {
+      "name": "Rymek East Lower",
+      "start": "1210,-1270",
+      "end": "1400,-1390",
+      "level": 30,
+      "spawnLocation": "1339,32,-1317",
+      "xp": 300
+    },
+    {
+      "name": "Rymek East Mid",
+      "start": "1211,-1410",
+      "end": "1480,-1578",
+      "level": 30,
+      "spawnLocation": "1315,32,-1444",
+      "xp": 300
+    },
+    {
+      "name": "Rymek East Upper",
+      "start": "1479,-1579",
+      "end": "1210,-1780",
+      "level": 30,
+      "spawnLocation": "1424,92,-1537",
+      "xp": 300
+    },
+    {
+      "name": "Rymek West Lower",
+      "start": "1209,-1269",
+      "end": "1020,-1380",
+      "level": 30,
+      "spawnLocation": "1161,32,-1302",
+      "xp": 300
+    },
+    {
+      "name": "Rymek West Mid",
+      "start": "1211,-1410",
+      "end": "1000,-1530",
+      "level": 30,
+      "spawnLocation": "1151,32,-1419",
+      "xp": 300
+    },
+    {
+      "name": "Rymek West Upper",
+      "start": "1190,-1665",
+      "end": "975,-1540",
+      "level": 30,
+      "spawnLocation": "1135,94,-1607",
+      "xp": 300
+    },
+    {
+      "name": "Desert East Upper",
+      "start": "1260,-2170",
+      "end": "1450,-2370",
+      "level": 25,
+      "spawnLocation": "1374,85,-2175",
+      "xp": 230
+    },
+    {
+      "name": "Desert East Mid",
+      "start": "1260,-2170",
+      "end": "1450,-2020",
+      "level": 25,
+      "spawnLocation": "1393,85,-2103",
+      "xp": 230
+    },
+    {
+      "name": "Desert East Lower",
+      "start": "1450,-2020",
+      "end": "1270,-1785",
+      "level": 25,
+      "spawnLocation": "1317,77,-1824",
+      "xp": 230
+    },
+    {
+      "name": "Desert Upper",
+      "start": "990,-2270",
+      "end": "1195,-2120",
+      "level": 25,
+      "spawnLocation": "1068,75,-2183",
+      "xp": 230
+    },
+    {
+      "name": "Desert Mid-Upper",
+      "start": "1195,-2120",
+      "end": "1060,-1935",
+      "level": 25,
+      "spawnLocation": "1158,77,-2057",
+      "xp": 230
+    },
+    {
+      "name": "Desert Mid-Lower",
+      "start": "1060,-1935",
+      "end": "1210,-1810",
+      "level": 25,
+      "spawnLocation": "1153,77,-1889",
+      "xp": 230
+    },
+    {
+      "name": "Desert Lower",
+      "start": "1210,-1810",
+      "end": "1040,-1680",
+      "level": 25,
+      "spawnLocation": "1095,72,-1777",
+      "xp": 230
+    },
+    {
+      "name": "Almuj City",
+      "start": "1050,-1900",
+      "end": "840,-2060",
+      "level": 25,
+      "spawnLocation": "883,68,-1956"
+    },
+    {
+      "name": "Mummy's Tomb",
+      "start": "990,-2270",
+      "end": "1120,-2400",
+      "level": 30,
+      "spawnLocation": "1041,83,-2297",
+      "xp": 300
+    },
+    {
+      "name": "Desert West Upper",
+      "start": "990,-2270",
+      "end": "895,-2140",
+      "level": 25,
+      "spawnLocation": "880,71,-2194",
+      "xp": 230
+    },
+    {
+      "name": "Desert West Lower",
+      "start": "1040,-1681",
+      "end": "900,-1870",
+      "level": 25,
+      "spawnLocation": "988,71,-1796",
+      "xp": 230
+    },
+    {
+      "name": "Savannah East Lower",
+      "start": "775,-1675",
+      "end": "890,-1860",
+      "level": 20,
+      "spawnLocation": "868,70,-1705",
+      "xp": 160
+    },
+    {
+      "name": "Savannah East Upper",
+      "start": "750,-2060",
+      "end": "820,-1895",
+      "level": 20,
+      "spawnLocation": "804,70,-1969",
+      "xp": 160
+    },
+    {
+      "name": "Savannah West Lower",
+      "start": "775,-1675",
+      "end": "630,-1830",
+      "level": 20,
+      "spawnLocation": "708,77,-1735",
+      "xp": 160
+    },
+    {
+      "name": "Savannah West Upper",
+      "start": "750,-2060",
+      "end": "570,-1870",
+      "level": 20,
+      "spawnLocation": "706,78,-1967",
+      "xp": 160
+    },
+    {
+      "name": "Bremminglar",
+      "start": "760,-2070",
+      "end": "615,-2120",
+      "level": 20,
+      "spawnLocation": "713,71,-2102"
+    },
+    {
+      "name": "Lion Lair",
+      "start": "890,-2140",
+      "end": "790,-2320",
+      "level": 20,
+      "spawnLocation": "868,23,-2315",
+      "xp": 160
+    },
+    {
+      "name": "Nemract Town",
+      "start": "10,-2070",
+      "end": "210,-2215",
+      "level": 15,
+      "spawnLocation": "97,39,-2193"
+    },
+    {
+      "name": "Plains Coast",
+      "start": "5,-2215",
+      "end": "-320,-2090",
+      "level": 15,
+      "spawnLocation": "-64,42,-2200",
+      "xp": 120
+    },
+    {
+      "name": "Nemract Road",
+      "start": "20,-2065",
+      "end": "151,-1871",
+      "level": 15,
+      "spawnLocation": "59,52,-2042",
+      "xp": 120
+    },
+    {
+      "name": "Nemract Plains West",
+      "start": "5,-1960",
+      "end": "-100,-1810",
+      "level": 15,
+      "spawnLocation": "-29,68,-1907",
+      "xp": 120
+    },
+    {
+      "name": "Nemract Plains East",
+      "start": "151,-1870",
+      "end": "20,-1810",
+      "level": 15,
+      "spawnLocation": "75,61,-1839",
+      "xp": 120
+    },
+    {
+      "name": "Ancient Nemract",
+      "start": "152,-1832",
+      "end": "290,-1999",
+      "level": 15,
+      "spawnLocation": "193,45,-1953"
+    },
+    {
+      "name": "Nemract Cathedral",
+      "start": "385,-2180",
+      "end": "270,-2030",
+      "level": 15,
+      "spawnLocation": "303,42,-4150",
+      "xp": 120
+    },
+    {
+      "name": "Cathedral Harbour",
+      "start": "385,-2180",
+      "end": "570,-1950",
+      "level": 15,
+      "spawnLocation": "467,53,-2055",
+      "xp": 120
+    },
+    {
+      "name": "The Bear Zoo",
+      "start": "-320,-2510",
+      "end": "-410,-2390",
+      "level": 10,
+      "spawnLocation": "-343,42,-2473"
+    },
+    {
+      "name": "Rooster Island",
+      "start": "-128,-2448",
+      "end": "-30,-2538",
+      "level": 15,
+      "spawnLocation": "-80,46,-2501"
+    },
+    {
+      "name": "Zhight Island",
+      "start": "-472,-2651",
+      "end": "-704,-2863",
+      "level": 45,
+      "spawnLocation": "-441,41,-2870"
+    },
+    {
+      "name": "Selchar",
+      "start": "-100,-3070",
+      "end": "210,-3270",
+      "level": 20,
+      "spawnLocation": "115,67,-3168"
+    },
+    {
+      "name": "Durum Isles Center",
+      "start": "405,-2846",
+      "end": "504,-2972",
+      "level": 15,
+      "spawnLocation": "457,44,-2912"
+    },
+    {
+      "name": "Durum Isles Upper",
+      "start": "537,-2994",
+      "end": "595,-2924",
+      "level": 15,
+      "spawnLocation": "560,39,-2964",
+      "xp": 120
+    },
+    {
+      "name": "Durum Isles East",
+      "start": "482,-2841",
+      "end": "548,-2785",
+      "level": 15,
+      "spawnLocation": "506,42,-2813",
+      "xp": 120
+    },
+    {
+      "name": "Durum Isles Lower",
+      "start": "390,-2851",
+      "end": "347,-2791",
+      "level": 15,
+      "spawnLocation": "366,40,-2823",
+      "xp": 120
+    },
+    {
+      "name": "Pirate Town",
+      "start": "-740,-3220",
+      "end": "-620,-3050",
+      "level": 55,
+      "spawnLocation": "-672,36,-3160"
+    },
+    {
+      "name": "Skiens Island",
+      "start": "527,-3386",
+      "end": "297,-3644",
+      "level": 50,
+      "spawnLocation": "521,39,-3543"
+    },
+    {
+      "name": "Dujgon Nation",
+      "start": "1000,-3550",
+      "end": "925,-3380",
+      "level": 40,
+      "spawnLocation": "996,39,-3486",
+      "xp": 540
+    },
+    {
+      "name": "Nodguj Nation",
+      "start": "695,-3210",
+      "end": "880,-3440",
+      "level": 40,
+      "spawnLocation": "808,59,-3344",
+      "xp": 540
+    },
+    {
+      "name": "Dead Island North East",
+      "start": "870,-3920",
+      "end": "980,-3990",
+      "level": 70,
+      "spawnLocation": "925,49,-3924",
+      "xp": 2530
+    },
+    {
+      "name": "Dead Island South East",
+      "start": "870,-3920",
+      "end": "930,-3810",
+      "level": 70,
+      "spawnLocation": "917,50,-3877",
+      "xp": 2530
+    },
+    {
+      "name": "Dead Island North West",
+      "start": "870,-3920",
+      "end": "810,-4040",
+      "level": 70,
+      "spawnLocation": "878,51,-3991",
+      "xp": 2530
+    },
+    {
+      "name": "Dead Island South West",
+      "start": "870,-3920",
+      "end": "710,-3810",
+      "level": 70,
+      "spawnLocation": "812,36,-3892",
+      "xp": 2530
+    },
+    {
+      "name": "Maro Peaks",
+      "start": "548,-4204",
+      "end": "-61,-3794",
+      "level": 55,
+      "spawnLocation": "144,64,-3824"
+    },
+    {
+      "name": "Volcano Upper",
+      "start": "-920,-3550",
+      "end": "-780,-3830",
+      "level": 50,
+      "spawnLocation": "-833,44,-3717",
+      "xp": 920
+    },
+    {
+      "name": "Volcano Lower",
+      "start": "-930,-3530",
+      "end": "-1140,-3790",
+      "level": 50,
+      "spawnLocation": "-1081,43,-3746",
+      "xp": 920
+    },
+    {
+      "name": "Tree Island",
+      "start": "-460,-3850",
+      "end": "-370,-3770",
+      "level": 50,
+      "spawnLocation": "-386,46,-3817",
+      "xp": 920
+    },
+    {
+      "name": "Ternaves",
+      "start": "770,-1675",
+      "end": "880,-1540",
+      "level": 10,
+      "spawnLocation": "800,73,-1611"
+    },
+    {
+      "name": "Ternaves Plains Upper",
+      "start": "770,-1675",
+      "end": "655,-1430",
+      "level": 10,
+      "spawnLocation": "759,66,-1527",
+      "xp": 80
+    },
+    {
+      "name": "Ternaves Plains Lower",
+      "start": "655,-1430",
+      "end": "880,-1330",
+      "level": 10,
+      "spawnLocation": "770,61,-1430",
+      "xp": 80
+    },
+    {
+      "name": "Mining Base Upper",
+      "start": "880,-1330",
+      "end": "670,-1225",
+      "level": 20,
+      "spawnLocation": "780,27,-1287",
+      "xp": 160
+    },
+    {
+      "name": "Mining Base Lower",
+      "start": "870,-1130",
+      "end": "670,-1225",
+      "level": 20,
+      "spawnLocation": "783,31,-1184",
+      "xp": 160
+    },
+    {
+      "name": "Nesaak Transition",
+      "start": "330,-1040",
+      "end": "75,-1145",
+      "level": 35,
+      "spawnLocation": "212,86,-1067",
+      "xp": 410
+    },
+    {
+      "name": "Angry Village",
+      "start": "330,-1040",
+      "end": "450,-1170",
+      "level": 20,
+      "spawnLocation": "369,70,-1117",
+      "xp": 160
+    },
+    {
+      "name": "Nether Plains Lower",
+      "start": "75,-1145",
+      "end": "325,-1210",
+      "level": 15,
+      "spawnLocation": "304,87,-1152",
+      "xp": 120
+    },
+    {
+      "name": "Plains Lake",
+      "start": "395,-1365",
+      "end": "550,-1190",
+      "level": 20,
+      "spawnLocation": "447,69,-1222",
+      "xp": 160
+    },
+    {
+      "name": "Mine Base Plains",
+      "start": "550,-1190",
+      "end": "650,-1430",
+      "level": 20,
+      "spawnLocation": "609,81,-1203",
+      "xp": 160
+    },
+    {
+      "name": "Detlas Savannah Transition",
+      "start": "545,-1520",
+      "end": "650,-1670",
+      "spawnLocation": "615,68,-1611",
+      "level": 10
+    },
+    {
+      "name": "Nether Plains Upper",
+      "start": "115,-1360",
+      "end": "390,-1495",
+      "level": 15,
+      "spawnLocation": "359,83,-1366",
+      "xp": 120
+    },
+    {
+      "name": "Detlas Trail East Plains",
+      "start": "200,-1820",
+      "end": "510,-1675",
+      "level": 5,
+      "spawnLocation": "295,71,-1796",
+      "xp": 50
+    },
+    {
+      "name": "Detlas Trail West Plains",
+      "start": "25,-1660",
+      "end": "200,-1800",
+      "level": 5,
+      "spawnLocation": "70,71,-1783",
+      "xp": 50
+    },
+    {
+      "name": "Llevigar Entrance",
+      "start": "-2048,-4250",
+      "end": "-1932,-4403",
+      "level": 35,
+      "spawnLocation": "-2004,34,-4310",
+      "xp": 410
+    },
+    {
+      "name": "Llevigar Gate East",
+      "start": "-1932,-4648",
+      "end": "-2006,-4746",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1973,39,-4661"
+    },
+    {
+      "name": "Llevigar Gate West",
+      "start": "-2023,-4746",
+      "end": "-2097,-4644",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-2045,39,-4704"
+    },
+    {
+      "name": "Llevigar Farm Plains East",
+      "start": "-2009,-4747",
+      "end": "-1931,-4828",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1951,45,-4794"
+    },
+    {
+      "name": "Llevigar Farm Plains West",
+      "start": "-2023,-4746",
+      "end": "-2096,-4828",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-2027,41,-4752"
+    },
+    {
+      "name": "Hive",
+      "start": "381,-5413",
+      "end": "286,-5593",
+      "level": 75,
+      "spawnLocation": "360,30,-5438"
+    },
+    {
+      "name": "Cinfras",
+      "start": "-534,-4807",
+      "end": "-375,-5088",
+      "level": 70,
+      "spawnLocation": "-445,48,-4939"
+    },
+    {
+      "name": "Llevigar Plains East Lower",
+      "start": "-2024,-4831",
+      "end": "-1937,-4909",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1999,45,-4840"
+    },
+    {
+      "name": "Llevigar Plains West Lower",
+      "start": "-2031,-4831",
+      "end": "-2121,-4909",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-2045,45,-4842"
+    },
+    {
+      "name": "Llevigar Plains West Upper",
+      "start": "-2038,-4912",
+      "end": "-2131,-5000",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-2045,51,-4927"
+    },
+    {
+      "name": "Llevigar Plains East Upper",
+      "start": "-2031,-4912",
+      "end": "-1940,-5000",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-2006,47,-4930"
+    },
+    {
+      "name": "Swamp East Lower",
+      "start": "-2045,-5003",
+      "end": "-2134,-5075",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-2088,56,-5042"
+    },
+    {
+      "name": "Swamp West Lower",
+      "start": "-2028,-5003",
+      "end": "-1956,-5074",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-1995,54,-5006"
+    },
+    {
+      "name": "Swamp West Mid",
+      "start": "-1955,-5081",
+      "end": "-2028,-5186",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-1986,55,-5147"
+    },
+    {
+      "name": "Swamp East Mid",
+      "start": "-2045,-5082",
+      "end": "-2132,-5186",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-2108,55,-5128"
+    },
+    {
+      "name": "Swamp East Mid-Upper",
+      "start": "-2132,-5190",
+      "end": "-2049,-5309",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-2094,58,-5287"
+    },
+    {
+      "name": "Swamp West Mid-Upper",
+      "start": "-2028,-5188",
+      "end": "-1955,-5309",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-1959,55,-5252"
+    },
+    {
+      "name": "Swamp East Upper",
+      "start": "-2132,-5312",
+      "end": "-2049,-5419",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-2106,58,-5351"
+    },
+    {
+      "name": "Swamp West Upper",
+      "start": "-1955,-5311",
+      "end": "-2028,-5419",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-1995,57,-5371"
+    },
+    {
+      "name": "Swamp Dark Forest Transition Lower",
+      "start": "-1519,-5134",
+      "end": "-1631,-5288",
+      "level": 50,
+      "xp": 920,
+      "spawnLocation": "-1554,51,-5222"
+    },
+    {
+      "name": "Swamp Dark Forest Transition Mid",
+      "start": "-1519,-5291",
+      "end": "-1626,-5492",
+      "level": 50,
+      "xp": 920,
+      "spawnLocation": "-1540,51,-5430"
+    },
+    {
+      "name": "Swamp Dark Forest Transition Upper",
+      "start": "-1519,-5492",
+      "end": "-1626,-5607",
+      "level": 50,
+      "xp": 920,
+      "spawnLocation": "-1558,52,-5525"
+    },
+    {
+      "name": "Swamp Lower",
+      "start": "-1649,-5134",
+      "end": "-1763,-5241",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-1719,60,-5183"
+    },
+    {
+      "name": "Entrance to Olux",
+      "start": "-1649,-5246",
+      "end": "-1764,-5396",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-1725,56,-5342"
+    },
+    {
+      "name": "Olux",
+      "start": "-1810,-5397",
+      "end": "-1668,-5597",
+      "level": 45,
+      "spawnLocation": "-1746,66,-5513"
+    },
+    {
+      "name": "Swamp Mountain Base",
+      "start": "-1776,-5134",
+      "end": "-1898,-5240",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-1856,56,-5206"
+    },
+    {
+      "name": "Swamp Plains Basin",
+      "start": "-1776,-5246",
+      "end": "-1898,-5396",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-1850,54,-5283"
+    },
+    {
+      "name": "Swamp Mountain Transition Lower",
+      "start": "-2173,-5466",
+      "end": "-2128,-5603",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-2143,54,-5583"
+    },
+    {
+      "name": "Swamp Mountain Transition Mid",
+      "start": "-2127,-5466",
+      "end": "-2066,-5603",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-2095,56,-5530"
+    },
+    {
+      "name": "Swamp Mountain Transition Mid-Upper",
+      "start": "-2065,-5466",
+      "end": "-1982,-5603",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-2032,55,-5560"
+    },
+    {
+      "name": "Swamp Mountain Transition Upper",
+      "start": "-1981,-5466",
+      "end": "-1889,-5603",
+      "level": 45,
+      "xp": 700,
+      "spawnLocation": "-1939,54,-5551"
+    },
+    {
+      "name": "Quartz Mines South West",
+      "start": "-1776,-4352",
+      "end": "-1609,-4524",
+      "level": 40,
+      "xp": 540,
+      "spawnLocation": "-1667,47,-4391"
+    },
+    {
+      "name": "Quartz Mines South East",
+      "start": "-1391,-4352",
+      "end": "-1607,-4524",
+      "level": 40,
+      "xp": 540,
+      "spawnLocation": "-1560,45,-4457"
+    },
+    {
+      "name": "Quartz Mines North West",
+      "start": "-1776,-4664",
+      "end": "-1609,-4526",
+      "level": 40,
+      "xp": 540,
+      "spawnLocation": "-1702,53,-4587"
+    },
+    {
+      "name": "Quartz Mines North East",
+      "start": "-1391,-4664",
+      "end": "-1607,-4526",
+      "level": 40,
+      "xp": 540,
+      "spawnLocation": "-1511,41,-4577"
+    },
+    {
+      "name": "Green Camp",
+      "start": "-1930,-5099",
+      "end": "-1816,-4968",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1898,53,-5011"
+    },
+    {
+      "name": "Orc Lake",
+      "start": "-1933,-4962",
+      "end": "-1816,-4854",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1839,55,-4935"
+    },
+    {
+      "name": "Orc Road",
+      "start": "-1927,-4852",
+      "end": "-1815,-4700",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1876,44,-4774"
+    },
+    {
+      "name": "Meteor Crater",
+      "start": "-1800,-5099",
+      "end": "-1690,-4969",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1727,56,-5022"
+    },
+    {
+      "name": "Black Camp",
+      "start": "-1800,-4962",
+      "end": "-1695,-4854",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1729,59,-4888"
+    },
+    {
+      "name": "Red Camp",
+      "start": "-1800,-4852",
+      "end": "-1670,-4684",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1696,50,-4689"
+    },
+    {
+      "name": "Bucie North West",
+      "start": "-1688,-5099",
+      "end": "-1608,-4969",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1639,52,-4988"
+    },
+    {
+      "name": "Bucie South West",
+      "start": "-1688,-4962",
+      "end": "-1611,-4854",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1649,52,-4964"
+    },
+    {
+      "name": "Llevigar Farm",
+      "start": "-1663,-4849",
+      "end": "-1556,-4714",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1572,46,-4777"
+    },
+    {
+      "name": "Bucie North East",
+      "start": "-1603,-4969",
+      "end": "-1529,-5100",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1570,51,-4989"
+    },
+    {
+      "name": "Bucie South East",
+      "start": "-1603,-4963",
+      "end": "-1527,-4853",
+      "level": 35,
+      "xp": 410,
+      "spawnLocation": "-1580,50,-4939"
+    },
+    {
+      "name": "Pre-Light Forest Transition",
+      "start": "-1553,-4850",
+      "end": "-1476,-4719",
+      "level": 40,
+      "xp": 540,
+      "spawnLocation": "-1508,42,-4783"
+    },
+    {
+      "name": "Leadin Fortress",
+      "start": "-1403,-4869",
+      "end": "-1284,-4748",
+      "level": 60,
+      "xp": 1530,
+      "spawnLocation": "-1310,61,-4802"
+    },
+    {
+      "name": "Road To Light Forest",
+      "start": "-1387,-4595",
+      "end": "-1252,-4713",
+      "level": 60,
+      "xp": 1530,
+      "spawnLocation": "-1308,43,-4618"
+    },
+    {
+      "name": "Efelim Village",
+      "start": "-1020,-4943",
+      "end": "-1134,-5078",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-1060,43,-4973"
+    },
+    {
+      "name": "Efelim South Plains",
+      "start": "-1030,-4940",
+      "end": "-1134,-4847",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-1080,43,-4885"
+    },
+    {
+      "name": "Efelim East Plains",
+      "start": "-1014,-4944",
+      "end": "-949,-5079",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-984,45,-5007"
+    },
+    {
+      "name": "Efelim South East Plains",
+      "start": "-949,-4942",
+      "end": "-1014,-4847",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-999,44,-4896"
+    },
+    {
+      "name": "Light Forest North Entrance",
+      "start": "-1134,-4708",
+      "end": "-1030,-4845",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-1081,45,-4769"
+    },
+    {
+      "name": "Light Forest Entrance",
+      "start": "-1040,-4706",
+      "end": "-1134,-4552",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-1108,43,-4654"
+    },
+    {
+      "name": "Light Forest South Entrance",
+      "start": "-1134,-4548",
+      "end": "-1038,-4426",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-1099,43,-4482"
+    },
+    {
+      "name": "Aldorei Valley West Entrance",
+      "start": "-736,-4428",
+      "end": "-802,-4553",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-788,82,-4438"
+    },
+    {
+      "name": "Light Forest South Exit",
+      "start": "-646,-4699",
+      "end": "-733,-4559",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-680,46,-4622"
+    },
+    {
+      "name": "Light Forest North Exit",
+      "start": "-733,-4707",
+      "end": "-654,-4848",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-712,44,-4749"
+    },
+    {
+      "name": "Light Forest West Lower",
+      "start": "-1014,-4428",
+      "end": "-929,-4549",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-958,46,-4481"
+    },
+    {
+      "name": "Light Forest West Mid",
+      "start": "-929,-4552",
+      "end": "-1014,-4706",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-957,43,-4680"
+    },
+    {
+      "name": "Light Forest West Upper",
+      "start": "-1014,-4708",
+      "end": "-935,-4845",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-981,44,-4745"
+    },
+    {
+      "name": "Light Forest East Upper",
+      "start": "-926,-4842",
+      "end": "-831,-4945",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-921,46,-4908"
+    },
+    {
+      "name": "Light Forest East Mid",
+      "start": "-834,-4839",
+      "end": "-926,-4708",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-860,45,-4752"
+    },
+    {
+      "name": "Light Forest East Lower",
+      "start": "-926,-4700",
+      "end": "-805,-4552",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-880,45,-4614"
+    },
+    {
+      "name": "Hobbit River",
+      "start": "-926,-4550",
+      "end": "-806,-4428",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-911,43,-4519"
+    },
+    {
+      "name": "Mantis Nest",
+      "start": "-736,-4559",
+      "end": "-802,-4698",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-781,45,-4596"
+    },
+    {
+      "name": "Light Forest Canyon",
+      "start": "-738,-4708",
+      "end": "-818,-4840",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-766,44,-4757"
+    },
+    {
+      "name": "Path to Cinfras",
+      "start": "-734,-4842",
+      "end": "-818,-4953",
+      "level": 65,
+      "spawnLocation": "-752,43,-4920",
+      "xp": 1970
+    },
+    {
+      "name": "Lone Farmstead",
+      "start": "-942,-5227",
+      "end": "-1050,-5116",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-1006,45,-5176"
+    },
+    {
+      "name": "Gelibord",
+      "start": "-1050,-5244",
+      "end": "-958,-5342",
+      "level": 55,
+      "xp": 1185,
+      "spawnLocation": "-1001,47,-5285"
+    },
+    {
+      "name": "Gelibord Corrupted Farm",
+      "start": "-1056,-5355",
+      "end": "-1179,-5448",
+      "level": 55,
+      "xp": 1185,
+      "spawnLocation": "-1127,42,-5384"
+    },
+    {
+      "name": "Gelibord Castle",
+      "start": "-1027,-5470",
+      "end": "-1180,-5600",
+      "level": 55,
+      "xp": 1185,
+      "spawnLocation": "-1100,42,-5505"
+    },
+    {
+      "name": "Taproot Descent",
+      "start": "-1425,-5407",
+      "end": "-1194,-5589",
+      "level": 55,
+      "xp": 1185,
+      "spawnLocation": "-1342,44,-5530"
+    },
+    {
+      "name": "Fortress North",
+      "start": "-1452,-5211",
+      "end": "-1272,-5395",
+      "level": 55,
+      "xp": 1185,
+      "spawnLocation": "-1379,42,-5317"
+    },
+    {
+      "name": "Fortress South",
+      "start": "-1460,-5025",
+      "end": "-1272,-5210",
+      "level": 55,
+      "xp": 1185,
+      "spawnLocation": "-1354,55,-5103"
+    },
+    {
+      "name": "Mansion of Insanity",
+      "start": "-1237,-5116",
+      "end": "-1144,-5268",
+      "level": 55,
+      "spawnLocation": "-1182,42,-5258"
+    },
+    {
+      "name": "Twisted Housing",
+      "start": "-1133,-5116",
+      "end": "-1053,-5272",
+      "level": 55,
+      "xp": 1185,
+      "spawnLocation": "-1083,57,-5260"
+    },
+    {
+      "name": "Lexdales Prison",
+      "start": "-873,-5518",
+      "end": "-772,-5585",
+      "level": 65,
+      "spawnLocation": "-829,83,-5544",
+      "xp": 1970
+    },
+    {
+      "name": "Path To Prison",
+      "start": "-771,-5504",
+      "end": "-899,-5412",
+      "level": 65,
+      "spawnLocation": "-846,63,-5466",
+      "xp": 1970
+    },
+    {
+      "name": "Gromblins Hideout",
+      "start": "-896,-5408",
+      "end": "-792,-5233",
+      "level": 65,
+      "spawnLocation": "-818,46,-5290",
+      "xp": 1970
+    },
+    {
+      "name": "Abandoned Church",
+      "start": "-896,-5232",
+      "end": "-802,-5102",
+      "level": 65,
+      "spawnLocation": "-851,47,-5192",
+      "xp": 1970
+    },
+    {
+      "name": "Mesquis Tower",
+      "start": "-834,-5078",
+      "end": "-727,-4999",
+      "level": 65,
+      "spawnLocation": "-790,48,-5073",
+      "xp": 1970
+    },
+    {
+      "name": "Corrupted Impact",
+      "start": "-785,-5229",
+      "end": "-725,-5102",
+      "level": 65,
+      "spawnLocation": "-767,45,-5179",
+      "xp": 1970
+    },
+    {
+      "name": "Banshees Cave",
+      "start": "-653,-5231",
+      "end": "-785,-5401",
+      "level": 65,
+      "spawnLocation": "-748,47,-5248",
+      "xp": 1970
+    },
+    {
+      "name": "Shanjugin’s River",
+      "start": "-659,-5424",
+      "end": "-766,-5508",
+      "level": 65,
+      "spawnLocation": "639,47,-5492",
+      "xp": 1970
+    },
+    {
+      "name": "Dark Forest Village",
+      "start": "-723,-5229",
+      "end": "-574,-5147",
+      "level": 65,
+      "spawnLocation": "-684,45,-5196",
+      "xp": 1970
+    },
+    {
+      "name": "Graveyard South",
+      "start": "-648,-5311",
+      "end": "-567,-5234",
+      "level": 65,
+      "spawnLocation": "-6004,47,-5260",
+      "xp": 1970
+    },
+    {
+      "name": "Graveyard North",
+      "start": "-648,-5314",
+      "end": "-567,-5400",
+      "level": 65,
+      "spawnLocation": "-627,47,-5365",
+      "xp": 1970
+    },
+    {
+      "name": "Lexdale",
+      "start": "-650,-5511",
+      "end": "-562,-5406",
+      "level": 65,
+      "spawnLocation": "-600,46,-5456",
+      "xp": 1970
+    },
+    {
+      "name": "Arachnida Cave",
+      "start": "-489,-5279",
+      "end": "-549,-5398",
+      "level": 65,
+      "spawnLocation": "-523,46,-5352",
+      "xp": 1970
+    },
+    {
+      "name": "Black Magic",
+      "start": "-471,-5405",
+      "end": "-549,-5512",
+      "level": 65,
+      "spawnLocation": "-555,45,-5456",
+      "xp": 1970
+    },
+    {
+      "name": "Corrupted Hand",
+      "start": "-598,-5580",
+      "end": "-454,-5518",
+      "level": 65,
+      "spawnLocation": "-517,67,-5532",
+      "xp": 1970
+    },
+    {
+      "name": "Cinfras Entrance",
+      "start": "-555,-4996",
+      "end": "-717,-4868",
+      "level": 70,
+      "spawnLocation": "-581,46,-4918",
+      "xp": 2530
+    },
+    {
+      "name": "Abandoned Tower",
+      "start": "-288,-5411",
+      "end": "-392,-5601",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-317,43,-5435"
+    },
+    {
+      "name": "Corrupted Village",
+      "start": "-288,-5409",
+      "end": "-392,-5294",
+      "level": 65,
+      "xp": 1970,
+      "spawnLocation": "-360,43,-5367"
+    },
+    {
+      "name": "Dark Forest Cinfras Transition",
+      "start": "-290,-5292",
+      "end": "-392,-5116",
+      "level": 65,
+      "spawnLocation": "-342,35,-5222",
+      "xp": 1970
+    },
+    {
+      "name": "Guild Hall",
+      "start": "-349,-5093",
+      "end": "-137,-4814",
+      "level": 70,
+      "spawnLocation": "-339,64,-4925",
+      "xp": 2530
+    },
+    {
+      "name": "Aldorei Valley South Entrance",
+      "start": "-130,-4641",
+      "end": "-222,-4509",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-171,38,-4610"
+    },
+    {
+      "name": "Cinfras’s Small Farm",
+      "start": "-224,-4793",
+      "end": "-130,-4643",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-152,37,-4743"
+    },
+    {
+      "name": "Cinfras County Lower",
+      "start": "3,-4760",
+      "end": "-127,-4640",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-90,37,-4677"
+    },
+    {
+      "name": "Cinfras County Mid-Lower",
+      "start": "-127,-4761",
+      "end": "3,-4895",
+      "level": 70,
+      "spawnLocation": "-50,64,-4845",
+      "xp": 2530
+    },
+    {
+      "name": "Cinfras County Mid-Upper",
+      "start": "-127,-4896",
+      "end": "3,-5050",
+      "level": 70,
+      "spawnLocation": "-68,64,-4921",
+      "xp": 2530
+    },
+    {
+      "name": "Cinfras County Upper",
+      "start": "-127,-5155",
+      "end": "3,-5051",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-53,35,-5083"
+    },
+    {
+      "name": "Gylia Lake South East",
+      "start": "30,-5157",
+      "end": "-127,-5271",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-14,34,-5173"
+    },
+    {
+      "name": "Gylia Lake South West",
+      "start": "-130,-5173",
+      "end": "-241,-5271",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-231,33,-5179"
+    },
+    {
+      "name": "Gylia Lake North West",
+      "start": "-218,-5427",
+      "end": "-130,-5273",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-144,28,-5403"
+    },
+    {
+      "name": "Gylia Lake North East",
+      "start": "-128,-5416",
+      "end": "21,-5273",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-16,35,-5360"
+    },
+    {
+      "name": "Gert Camp",
+      "start": "30,-5447",
+      "end": "-83,-5605",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-45,35,-5487"
+    },
+    {
+      "name": "Jitak’s Farm",
+      "start": "-122,-5430",
+      "end": "-218,-5567",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-161,32,-5465"
+    },
+    {
+      "name": "Aldorei Valley Lower",
+      "start": "-714,-4395",
+      "end": "-559,-4499",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-659,97,-4443"
+    },
+    {
+      "name": "Aldorei Valley Mid",
+      "start": "-322,-4499",
+      "end": "-557,-4395",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-525,117,-4451"
+    },
+    {
+      "name": "Aldorei Valley Upper",
+      "start": "-557,-4501",
+      "end": "-322,-4656",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-496,50,-4556"
+    },
+    {
+      "name": "Aldorei’s River",
+      "start": "-437,-4656",
+      "end": "-338,-4756",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-390,35,-4719"
+    },
+    {
+      "name": "Aldorei’s Waterfall",
+      "start": "-237,-4514",
+      "end": "-321,-4648",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-246,37,-4609"
+    },
+    {
+      "name": "Aldorei’s North Exit",
+      "start": "-127,-4639",
+      "end": "3,-4509",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-76,38,-4592"
+    },
+    {
+      "name": "Aldorei’s Arch",
+      "start": "33,-4367",
+      "end": "107,-4519",
+      "level": 70,
+      "spawnLocation": "69,45,-4419",
+      "xp": 2530
+    },
+    {
+      "name": "Path To The Arch",
+      "start": "35,-4521",
+      "end": "107,-4641",
+      "level": 70,
+      "spawnLocation": "80,45,-4563",
+      "xp": 2530
+    },
+    {
+      "name": "Ghostly Path",
+      "start": "35,-4643",
+      "end": "107,-4753",
+      "level": 70,
+      "spawnLocation": "78,45,-4687",
+      "xp": 2530
+    },
+    {
+      "name": "Burning Farm",
+      "start": "107,-4755",
+      "end": "35,-4857",
+      "level": 75,
+      "xp": 3245,
+      "spawnLocation": "78,42,-4840"
+    },
+    {
+      "name": "Burning Airship",
+      "start": "35,-4859",
+      "end": "107,-4955",
+      "level": 75,
+      "xp": 3245,
+      "spawnLocation": "79,43,-4920"
+    },
+    {
+      "name": "Cinfras Thanos Transition",
+      "start": "98,-4957",
+      "end": "35,-5046",
+      "level": 75,
+      "xp": 3245,
+      "spawnLocation": "79,45,-4977"
+    },
+    {
+      "name": "Thanos",
+      "start": "51,-5189",
+      "end": "194,-5295",
+      "level": 75,
+      "spawnLocation": "103,50,-5251",
+      "xp": 3245
+    },
+    {
+      "name": "Path To Thanos",
+      "start": "98,-5049",
+      "end": "35,-5149",
+      "level": 75,
+      "spawnLocation": "92,46,-5105",
+      "xp": 3245
+    },
+    {
+      "name": "Path To Military Base",
+      "start": "51,-5297",
+      "end": "166,-5391",
+      "level": 75,
+      "spawnLocation": "107,47,-5349",
+      "xp": 3245
+    },
+    {
+      "name": "Military Base",
+      "start": "104,-5393",
+      "end": "166,-5518",
+      "level": 75,
+      "spawnLocation": "111,52,-5434",
+      "xp": 3245
+    },
+    {
+      "name": "Military Base Upper",
+      "start": "168,-5408",
+      "end": "250,-5518",
+      "level": 75,
+      "spawnLocation": "171,78,-5068",
+      "xp": 3245
+    },
+    {
+      "name": "Military Base Lower",
+      "start": "244,-5407",
+      "end": "168,-5315",
+      "level": 75,
+      "spawnLocation": "169,44,-5386",
+      "xp": 3245
+    },
+    {
+      "name": "Path To Ozoth’s Spire Lower",
+      "start": "260,-5298",
+      "end": "199,-5169",
+      "level": 75,
+      "spawnLocation": "63,43,-5225",
+      "xp": 3245
+    },
+    {
+      "name": "Path To Ozoth’s Spire Mid",
+      "start": "199,-5164",
+      "end": "260,-5042",
+      "level": 75,
+      "spawnLocation": "241,88,-5173",
+      "xp": 3245
+    },
+    {
+      "name": "Path To Ozoth’s Spire Upper",
+      "start": "194,-5165",
+      "end": "111,-5045",
+      "level": 75,
+      "spawnLocation": "128,49,-5068",
+      "xp": 3245
+    },
+    {
+      "name": "Bandit Cave Lower",
+      "start": "111,-5043",
+      "end": "194,-4958",
+      "level": 75,
+      "spawnLocation": "123,44,-4966",
+      "xp": 3245
+    },
+    {
+      "name": "Bandit Cave Upper",
+      "start": "194,-4956",
+      "end": "111,-4872",
+      "level": 75,
+      "spawnLocation": "111,44,-4893",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Entrance Waterfall",
+      "start": "110,-4869",
+      "end": "194,-4741",
+      "level": 75,
+      "spawnLocation": "165,80,-4764",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Path North West",
+      "start": "110,-4736",
+      "end": "194,-4651",
+      "level": 75,
+      "spawnLocation": "115,73,-4667",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Path South East",
+      "start": "194,-4649",
+      "end": "115,-4521",
+      "level": 75,
+      "spawnLocation": "149,51,-4589",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Waterfall North",
+      "start": "115,-4205",
+      "end": "194,-4380",
+      "level": 75,
+      "spawnLocation": "163,79,-4349",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Upper North West",
+      "start": "200,-4380",
+      "end": "265,-4518",
+      "level": 75,
+      "spawnLocation": "204,116,-4445",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Lower South East",
+      "start": "265,-4521",
+      "end": "199,-4649",
+      "level": 75,
+      "spawnLocation": "216,107,-4546",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Path South West",
+      "start": "265,-4652",
+      "end": "200,-4741",
+      "level": 75,
+      "spawnLocation": "208,85,-4649",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Path North Mid",
+      "start": "200,-4743",
+      "end": "264,-4875",
+      "level": 75,
+      "spawnLocation": "218,79,-4796",
+      "xp": 3245
+    },
+    {
+      "name": "Bandit Camp Exit",
+      "start": "264,-4877",
+      "end": "203,-4971",
+      "level": 75,
+      "spawnLocation": "255,80,-4930",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Valley South",
+      "start": "263,-4973",
+      "end": "199,-5035",
+      "level": 75,
+      "spawnLocation": "244,80,-5010",
+      "xp": 3245
+    },
+    {
+      "name": "Thanos Valley West",
+      "start": "250,-5401",
+      "end": "311,-5315",
+      "level": 75,
+      "spawnLocation": "333,29,-5332",
+      "xp": 3245
+    },
+    {
+      "name": "Thanos Exit",
+      "start": "338,-5310",
+      "end": "262,-5168",
+      "level": 75,
+      "spawnLocation": "284,53,-5241",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Walk Way",
+      "start": "271,-5165",
+      "end": "338,-5041",
+      "level": 75,
+      "spawnLocation": "306,30,-5087",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Mountain East",
+      "start": "271,-5039",
+      "end": "337,-4948",
+      "level": 75,
+      "spawnLocation": "268,80,-5009",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Mountain South",
+      "start": "271,-4946",
+      "end": "337,-4857",
+      "level": 75,
+      "spawnLocation": "318,74,-4876",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Waterfall Mid North",
+      "start": "337,-4855",
+      "end": "271,-4741",
+      "level": 75,
+      "spawnLocation": "278,75,-4799",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Fortress",
+      "start": "271,-4739",
+      "end": "338,-4630",
+      "level": 75,
+      "spawnLocation": "321,61,-4680",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Survivor",
+      "start": "338,-4628",
+      "end": "269,-4522",
+      "level": 75,
+      "spawnLocation": "302,117,-4535",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon Dropoff",
+      "start": "334,-4518",
+      "end": "269,-4395",
+      "level": 75,
+      "spawnLocation": "306,101,-4438",
+      "xp": 3245
+    },
+    {
+      "name": "Thanos Exit Upper",
+      "start": "347,-5313",
+      "end": "438,-5183",
+      "level": 75,
+      "spawnLocation": "343,53,-5240",
+      "xp": 3245
+    },
+    {
+      "name": "Bandits Toll",
+      "start": "439,-5038",
+      "end": "345,-5181",
+      "level": 80,
+      "spawnLocation": "375,34,-5148",
+      "xp": 4160
+    },
+    {
+      "name": "Wizard Tower North",
+      "start": "438,-5037",
+      "end": "345,-4966",
+      "level": 80,
+      "spawnLocation": "376,74,-5012",
+      "xp": 4160
+    },
+    {
+      "name": "Mountain Path",
+      "start": "334,-4393",
+      "end": "276,-4314",
+      "level": 80,
+      "spawnLocation": "319,123,-4358",
+      "xp": 4160
+    },
+    {
+      "name": "Mountain Edge",
+      "start": "437,-4314",
+      "end": "336,-4392",
+      "level": 80,
+      "spawnLocation": "354,117,-4344",
+      "xp": 4160
+    },
+    {
+      "name": "Cliff Side of the Lost",
+      "start": "340,-4395",
+      "end": "437,-4508",
+      "level": 80,
+      "spawnLocation": "393,45,-4442",
+      "xp": 4160
+    },
+    {
+      "name": "Valley of the Lost",
+      "start": "435,-4511",
+      "end": "341,-4670",
+      "level": 80,
+      "spawnLocation": "373,39,-4572",
+      "xp": 4160
+    },
+    {
+      "name": "Temple of the Lost East",
+      "start": "440,-4672",
+      "end": "341,-4838",
+      "level": 80,
+      "spawnLocation": "370,29,-4778",
+      "xp": 4160
+    },
+    {
+      "name": "Krolton’s Cave",
+      "start": "341,-4841",
+      "end": "438,-4962",
+      "level": 80,
+      "spawnLocation": "414,29,-4920",
+      "xp": 4160
+    },
+    {
+      "name": "Hive South",
+      "start": "440,-5315",
+      "end": "560,-5449",
+      "level": 75,
+      "spawnLocation": "471,40,-5192",
+      "xp": 3245
+    },
+    {
+      "name": "Canyon High Path",
+      "start": "562,-5313",
+      "end": "440,-5191",
+      "level": 80,
+      "spawnLocation": "471,40,-5192",
+      "xp": 4160
+    },
+    {
+      "name": "Cliffside Waterfall",
+      "start": "440,-5183",
+      "end": "563,-5080",
+      "level": 80,
+      "spawnLocation": "550,31,-5097",
+      "xp": 4160
+    },
+    {
+      "name": "Cliffside Valley",
+      "start": "563,-5079",
+      "end": "440,-4975",
+      "level": 80,
+      "spawnLocation": "567,30,-5072",
+      "xp": 4160
+    },
+    {
+      "name": "Air Temple Lower",
+      "start": "445,-4972",
+      "end": "563,-4835",
+      "level": 80,
+      "spawnLocation": "497,29,-4973",
+      "xp": 4160
+    },
+    {
+      "name": "Air Temple Upper",
+      "start": "570,-4833",
+      "end": "445,-4692",
+      "level": 80,
+      "xp": 4160,
+      "spawnLocation": "473,107,-4741"
+    },
+    {
+      "name": "Cliffside Lake",
+      "start": "445,-4689",
+      "end": "570,-4568",
+      "level": 80,
+      "spawnLocation": "516,66,-4640",
+      "xp": 4160
+    },
+    {
+      "name": "Canyon Of The Lost",
+      "start": "443,-4566",
+      "end": "570,-4392",
+      "level": 80,
+      "spawnLocation": "482,54,-4487",
+      "xp": 4160
+    },
+    {
+      "name": "Kandon-Beda",
+      "start": "607,-4579",
+      "end": "760,-4372",
+      "level": 90,
+      "spawnLocation": "635,52,-4446"
+    },
+    {
+      "name": "Kandon Farm",
+      "start": "710,-4587",
+      "end": "614,-4682",
+      "level": 90,
+      "spawnLocation": "671,88,-4644",
+      "xp": 6810
+    },
+    {
+      "name": "Cliffside Passage",
+      "start": "699,-4817",
+      "end": "572,-4691",
+      "level": 80,
+      "spawnLocation": "602,55,-4803",
+      "xp": 4160
+    },
+    {
+      "name": "Cliffside Passage North",
+      "start": "572,-4818",
+      "end": "700,-4933",
+      "level": 80,
+      "spawnLocation": "612,29,-4901",
+      "xp": 4160
+    },
+    {
+      "name": "Entrance to Thesead North",
+      "start": "572,-4935",
+      "end": "700,-5028",
+      "level": 80,
+      "spawnLocation": "627,50,-4975",
+      "xp": 4160
+    },
+    {
+      "name": "Entrance to Thesead South",
+      "start": "700,-5030",
+      "end": "574,-5181",
+      "level": 80,
+      "spawnLocation": "598,29,-4973",
+      "xp": 4160
+    },
+    {
+      "name": "Chained House",
+      "start": "574,-5375",
+      "end": "699,-5242",
+      "level": 80,
+      "xp": 4160,
+      "spawnLocation": "602,78,-5374"
+    },
+    {
+      "name": "Cherry Blossom Forest",
+      "start": "699,-5378",
+      "end": "575,-5551",
+      "level": 80,
+      "xp": 4160,
+      "spawnLocation": "624,79,-5375"
+    },
+    {
+      "name": "Ranol’s Farm",
+      "start": "810,-5551",
+      "end": "701,-5377",
+      "level": 80,
+      "xp": 4160,
+      "spawnLocation": "762,45,-5441"
+    },
+    {
+      "name": "Thesead Suburbs",
+      "start": "703,-5374",
+      "end": "810,-5216",
+      "level": 80,
+      "xp": 4160,
+      "spawnLocation": "787,58,-5265"
+    },
+    {
+      "name": "Thesead",
+      "start": "747,-5104",
+      "end": "872,-4964",
+      "level": 80,
+      "spawnLocation": "769,80,-5041",
+      "xp": 4160
+    },
+    {
+      "name": "Entrance to Rodoroc",
+      "start": "854,-5257",
+      "end": "1113,-5367",
+      "level": 80,
+      "spawnLocation": "956,44,-5310",
+      "xp": 4160
+    },
+    {
+      "name": "Eltom",
+      "start": "1029,-5581",
+      "end": "828,-5376",
+      "level": 80,
+      "spawnLocation": "940,113,-5494",
+      "xp": 4160
+    },
+    {
+      "name": "Molten Heights Portal",
+      "start": "1535,-5067",
+      "end": "1387,-5366",
+      "level": 85,
+      "spawnLocation": "1428,14,-5131",
+      "xp": 5320
+    },
+    {
+      "name": "Lava Lake",
+      "start": "1531,-5553",
+      "end": "1387,-5369",
+      "level": 85,
+      "spawnLocation": "1403,9,-5416",
+      "xp": 5320
+    },
+    {
+      "name": "Lava Lake Bridge",
+      "start": "1230,-5240",
+      "end": "1379,-5366",
+      "level": 85,
+      "spawnLocation": "1319,9,-5298",
+      "xp": 5320
+    },
+    {
+      "name": "Crater Descent",
+      "start": "1383,-5238",
+      "end": "1230,-5067",
+      "level": 85,
+      "spawnLocation": "1272,10,-5184",
+      "xp": 5320
+    },
+    {
+      "name": "Active Volcano",
+      "start": "1233,-5553",
+      "end": "1379,-5369",
+      "level": 85,
+      "spawnLocation": "1300,10,-5461",
+      "xp": 5320
+    },
+    {
+      "name": "Volcanic Slope",
+      "start": "1531,-5637",
+      "end": "1221,-5555",
+      "level": 85,
+      "spawnLocation": "1392,70,-5609",
+      "xp": 5320
+    },
+    {
+      "name": "Ahmsord",
+      "start": "1163,-4462",
+      "end": "942,-4604",
+      "level": 90,
+      "spawnLocation": "1021,113,-4559"
+    },
+    {
+      "name": "Temple Island",
+      "start": "991,-4643",
+      "end": "1124,-4750",
+      "level": 90,
+      "spawnLocation": "1005,108,-4686",
+      "xp": 6810
+    },
+    {
+      "name": "Snail Island",
+      "start": "1022,-4811",
+      "end": "958,-4872",
+      "level": 90,
+      "spawnLocation": "1015,134,-4856",
+      "xp": 6810
+    },
+    {
+      "name": "Qira's Battle Room",
+      "start": "1037,-7046",
+      "end": "1102,-6981",
+      "level": 90,
+      "xp": 6810,
+      "spawnLocation": "1069,87,-7012"
+    },
+    {
+      "name": "Light Realm East",
+      "start": "-240,-6855",
+      "end": "-45,-6984",
+      "level": 70,
+      "spawnLocation": "-165,63,-6902",
+      "xp": 2530
+    },
+    {
+      "name": "Light Realm East Lower",
+      "start": "-243,-6858",
+      "end": "-542,-6984",
+      "level": 70,
+      "spawnLocation": "-414,58,-6920",
+      "xp": 2530
+    },
+    {
+      "name": "Light Realm East Mid",
+      "start": "-566,-6985",
+      "end": "-860,-6857",
+      "level": 70,
+      "spawnLocation": "-739,52,-6888",
+      "xp": 2530
+    },
+    {
+      "name": "Light Realm East Mid-Upper",
+      "start": "-871,-6986",
+      "end": "-1076,-6855",
+      "level": 70,
+      "spawnLocation": "-1013,58,-6878",
+      "xp": 2530
+    },
+    {
+      "name": "Light Realm East Upper",
+      "start": "-1079,-6855",
+      "end": "-1305,-6986",
+      "level": 70,
+      "spawnLocation": "-1180,60,-6923",
+      "xp": 2530
+    },
+    {
+      "name": "Light Realm Entrance",
+      "start": "-1079,-6635",
+      "end": "-1343,-6848",
+      "level": 70,
+      "spawnLocation": "-1186,58,-6758",
+      "xp": 2530
+    },
+    {
+      "name": "Light Realm Entrance Upper",
+      "start": "-1076,-6848",
+      "end": "-836,-6634",
+      "level": 70,
+      "spawnLocation": "-916,55,-6776",
+      "xp": 2530
+    },
+    {
+      "name": "Orphion's Seal",
+      "start": "-249,-6854",
+      "end": "-539,-6633",
+      "level": 70,
+      "spawnLocation": "-421,46,-6728",
+      "xp": 2530
+    },
+    {
+      "name": "Orphion's Seal Upper",
+      "start": "-542,-6854",
+      "end": "-826,-6633",
+      "level": 70,
+      "spawnLocation": "-666,59,-6718",
+      "xp": 2530
+    },
+    {
+      "name": "Light Realm Mushrooms",
+      "start": "-249,-6630",
+      "end": "-539,-6462",
+      "level": 70,
+      "spawnLocation": "-428,57,-6588",
+      "xp": 2530
+    },
+    {
+      "name": "Light Realm Corruption",
+      "start": "-545,-6462",
+      "end": "-762,-6630",
+      "level": 70,
+      "spawnLocation": "-703,54,-6570",
+      "xp": 2530
+    },
+    {
+      "name": "Road to Corruption",
+      "start": "-1077,-6462",
+      "end": "-764,-6630",
+      "level": 70,
+      "spawnLocation": "-851,57,-6562",
+      "xp": 2530
+    },
+    {
+      "name": "Spiraling Trees",
+      "start": "-1079,-6630",
+      "end": "-1345,-6461",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-1108,56,-6595"
+    },
+    {
+      "name": "Dernal Jungle Lower",
+      "start": "-737,-317",
+      "end": "-502,-530",
+      "level": 55,
+      "spawnLocation": "-620,25,-412",
+      "xp": 1185
+    },
+    {
+      "name": "Dernal Jungle Mid",
+      "start": "-744,-528",
+      "end": "-965,-264",
+      "level": 55,
+      "spawnLocation": "-859,22,-360",
+      "xp": 1185
+    },
+    {
+      "name": "Dernal Jungle Upper",
+      "start": "-970,-795",
+      "end": "-900,-547",
+      "level": 55,
+      "spawnLocation": "-917,24,-672",
+      "xp": 1185
+    },
+    {
+      "name": "Corkus City",
+      "start": "-1557,-2835",
+      "end": "-1680,-3010",
+      "level": 80,
+      "spawnLocation": "-1605,69,-2934"
+    },
+    {
+      "name": "Corkus Castle",
+      "start": "-1555,-2968",
+      "end": "-1452,-2835",
+      "level": 80,
+      "spawnLocation": "-1473,70,-2924",
+      "xp": 4160
+    },
+    {
+      "name": "Corkus City South",
+      "start": "-1559,-2662",
+      "end": "-1679,-2833",
+      "level": 80,
+      "spawnLocation": "-1614,69,-2777",
+      "xp": 4160
+    },
+    {
+      "name": "Fallen Factory",
+      "start": "-1579,-2662",
+      "end": "-1681,-2518",
+      "level": 80,
+      "spawnLocation": "-1600,82,-2596"
+    },
+    {
+      "name": "Road To Mine",
+      "start": "-1467,-2834",
+      "end": "-1557,-2691",
+      "level": 80,
+      "spawnLocation": "-1542,73,-2738",
+      "xp": 4160
+    },
+    {
+      "name": "Corkus City Mine",
+      "start": "-1394,-2750",
+      "end": "-1466,-2831",
+      "level": 80,
+      "spawnLocation": "-1411,94,-2771",
+      "xp": 4160
+    },
+    {
+      "name": "Legendary Island",
+      "start": "-1212,-2576",
+      "end": "-1001,-2342",
+      "level": 90,
+      "spawnLocation": "-1104,66,-2422"
+    },
+    {
+      "name": "Factory Entrance",
+      "start": "-1683,-2571",
+      "end": "-1798,-2730",
+      "level": 80,
+      "spawnLocation": "-1729,76,-2642",
+      "xp": 4160
+    },
+    {
+      "name": "Corkus Forest South",
+      "start": "-1681,-2732",
+      "end": "-1883,-2861",
+      "level": 80,
+      "spawnLocation": "-1774,71,-2825",
+      "xp": 4160
+    },
+    {
+      "name": "Corkus Forest North",
+      "start": "-1888,-2862",
+      "end": "-1682,-2995",
+      "level": 80,
+      "spawnLocation": "-1754,68,-2859",
+      "xp": 4160
+    },
+    {
+      "name": "Corkus Mountain",
+      "start": "-1888,-2997",
+      "end": "-1683,-3175",
+      "level": 80,
+      "spawnLocation": "-1787,52,-3010",
+      "xp": 4160
+    },
+    {
+      "name": "Corkus Abandoned Tower",
+      "start": "-1681,-3178",
+      "end": "-1888,-3375",
+      "level": 80,
+      "spawnLocation": "-1796,109,-3276",
+      "xp": 4160
+    },
+    {
+      "name": "Corkus Docks",
+      "start": "-1891,-2997",
+      "end": "-2022,-3274",
+      "level": 80,
+      "spawnLocation": "-1928,41,-3159",
+      "xp": 4160
+    },
+    {
+      "name": "Corkus Countryside",
+      "start": "-1503,-3191",
+      "end": "-1680,-3012",
+      "level": 80,
+      "spawnLocation": "-1585,73,-3079",
+      "xp": 4160
+    },
+    {
+      "name": "Corkus Sea Port",
+      "start": "-1680,-2512",
+      "end": "-1437,-2307",
+      "level": 80,
+      "xp": 4160,
+      "spawnLocation": "-1462,60,-2330"
+    },
+    {
+      "name": "Ruined Houses",
+      "start": "-1684,-2569",
+      "end": "-1793,-2453",
+      "level": 80,
+      "xp": 4160,
+      "spawnLocation": "-1715,75,-2539"
+    },
+    {
+      "name": "Statue",
+      "start": "-1322,-2917",
+      "end": "-1393,-2836",
+      "level": 80,
+      "spawnLocation": "-1375,104,-2872",
+      "xp": 4160
+    },
+    {
+      "name": "Avos Temple",
+      "start": "-1526,-3225",
+      "end": "-1378,-3426",
+      "level": 80,
+      "spawnLocation": "-1410,135,-3308",
+      "xp": 4160
+    },
+    {
+      "name": "Bloody Beach",
+      "start": "-1376,-3225",
+      "end": "-1097,-3426",
+      "level": 80,
+      "spawnLocation": "-1286,43,-3336",
+      "xp": 4160
+    },
+    {
+      "name": "Corkus Outskirts",
+      "start": "-1502,-2976",
+      "end": "-1230,-3224",
+      "level": 80,
+      "spawnLocation": "-1414,126,-3046",
+      "xp": 4160
+    },
+    {
+      "name": "Frozen Fort",
+      "start": "1501,-4513",
+      "end": "1586,-4789",
+      "level": 90,
+      "spawnLocation": "1557,176,-4639",
+      "xp": 6810
+    },
+    {
+      "name": "Sky Castle",
+      "start": "954,-4425",
+      "end": "854,-4340",
+      "level": 90,
+      "xp": 6810,
+      "spawnLocation": "910,90,-4417"
+    },
+    {
+      "name": "Path to Ahmsord Lower",
+      "start": "779,-4480",
+      "end": "885,-4570",
+      "level": 90,
+      "xp": 6810,
+      "spawnLocation": "846,86,-4515"
+    },
+    {
+      "name": "Path to Ahmsord Upper",
+      "start": "885,-4571",
+      "end": "779,-4639",
+      "level": 90,
+      "xp": 6810,
+      "spawnLocation": "845,63,-4605"
+    },
+    {
+      "name": "Kandon Ridge",
+      "start": "885,-4640",
+      "end": "719,-4777",
+      "level": 90,
+      "xp": 6810,
+      "spawnLocation": "881,62,-4692"
+    },
+    {
+      "name": "Old Coal Mine",
+      "start": "719,-4778",
+      "end": "885,-4900",
+      "level": 90,
+      "xp": 6810,
+      "spawnLocation": "798,43,-4847"
+    },
+    {
+      "name": "Dragonling Nests",
+      "start": "925,-4916",
+      "end": "1101,-5016",
+      "level": 90,
+      "spawnLocation": "1048,44,-4937",
+      "xp": 6810
+    },
+    {
+      "name": "Astraulus' Tower",
+      "start": "1102,-5016",
+      "end": "1250,-4916",
+      "level": 90,
+      "spawnLocation": "1216,127,-4935",
+      "xp": 6810
+    },
+    {
+      "name": "Molten Reach",
+      "start": "1251,-4894",
+      "end": "1500,-4964",
+      "level": 90,
+      "spawnLocation": "1403,104,-4885",
+      "xp": 6810
+    },
+    {
+      "name": "Ahmsord Outskirts",
+      "start": "1336,-4893",
+      "end": "1179,-4730",
+      "level": 90,
+      "spawnLocation": "1255,127,-4807",
+      "xp": 6810
+    },
+    {
+      "name": "Swamp Island",
+      "start": "1178,-4754",
+      "end": "1101,-4915",
+      "level": 90,
+      "spawnLocation": "1119,124,-4870",
+      "xp": 6810
+    },
+    {
+      "name": "Angel Refuge",
+      "start": "1354,-4727",
+      "end": "1484,-4877",
+      "level": 90,
+      "spawnLocation": "1379,125,-4789",
+      "xp": 6810
+    },
+    {
+      "name": "Wybel Island",
+      "start": "1355,-4700",
+      "end": "1253,-4595",
+      "level": 90,
+      "spawnLocation": "1320,67,-4663",
+      "xp": 6810
+    },
+    {
+      "name": "Central Islands",
+      "start": "1250,-4718",
+      "end": "1183,-4535",
+      "level": 90,
+      "spawnLocation": "1195,142,-4612",
+      "xp": 6810
+    },
+    {
+      "name": "Sky Island Ascent",
+      "start": "1180,-4524",
+      "end": "1379,-4355",
+      "level": 90,
+      "spawnLocation": "1289,188,-4462",
+      "xp": 6810
+    },
+    {
+      "name": "Sky Falls",
+      "start": "1380,-4458",
+      "end": "1466,-4653",
+      "level": 90,
+      "spawnLocation": "1412,144,-4580",
+      "xp": 6810
+    },
+    {
+      "name": "Raider's Base Upper",
+      "start": "1380,-4457",
+      "end": "1551,-4316",
+      "level": 90,
+      "spawnLocation": "1449,84,-4338",
+      "xp": 6810
+    },
+    {
+      "name": "Raider's Base Lower",
+      "start": "1558,-4316",
+      "end": "1305,-4253",
+      "level": 90,
+      "spawnLocation": "1420,118,-4270",
+      "xp": 6810
+    },
+    {
+      "name": "Jofash Tunnel",
+      "start": "1304,-4354",
+      "end": "1126,-4176",
+      "level": 90,
+      "spawnLocation": "1259,48,-4247"
+    },
+    {
+      "name": "Jofash Docks",
+      "start": "1178,-4175",
+      "end": "1465,-3926",
+      "level": 90,
+      "spawnLocation": "1314,37,-4104"
+    },
+    {
+      "name": "Santa's Hideout",
+      "start": "1057,-3077",
+      "end": "1221,-3209",
+      "level": 30,
+      "spawnLocation": "1127,42,-3112",
+      "xp": 300
+    },
+    {
+      "name": "Lusuco",
+      "start": "-267,-348",
+      "end": "-91,-250",
+      "level": 40,
+      "spawnLocation": "-204,27,-322"
+    },
+    {
+      "name": "Icy Descent",
+      "start": "-311,-358",
+      "end": "-104,-496",
+      "level": 40,
+      "spawnLocation": "-177,23,-439",
+      "xp": 540
+    },
+    {
+      "name": "Ragni",
+      "start": "-955,-1415",
+      "end": "-756,-1748",
+      "level": 1,
+      "spawnLocation": "-881,68,-1576"
+    },
+    {
+      "name": "Phinas Farm",
+      "start": "-1633,-2162",
+      "end": "-1842,-2058",
+      "level": 80,
+      "spawnLocation": "-1746,56,-2101",
+      "xp": 4160
+    },
+    {
+      "name": "Aldorei Lowlands",
+      "start": "-337,-4756",
+      "end": "-225,-4657",
+      "level": 70,
+      "xp": 2530,
+      "spawnLocation": "-272,34,-4714"
+    },
+    {
+      "name": "Cinfras Outskirts",
+      "start": "-392,-5116",
+      "end": "-534,-5278",
+      "level": 70,
+      "spawnLocation": "-453,44,-5208",
+      "xp": 2530
+    },
+    {
+      "name": "Rodoroc",
+      "start": "1200,-5067",
+      "end": "965,-5238",
+      "level": 85,
+      "spawnLocation": "1035,19,-5150"
+    },
+    {
+      "name": "Llevigar",
+      "start": "-1800,-4643",
+      "end": "-2171,-4405",
+      "level": 35,
+      "spawnLocation": "-1981,34,-4601"
+    },
+    {
+      "name": "Regular Island",
+      "start": "1202,-3764",
+      "end": "1458,-3597",
+      "level": 40,
+      "spawnLocation": "1350,37,-3680",
+      "xp": 540
+    },
+    {
+      "name": "Herb Cave",
+      "start": "-448,-813",
+      "end": "-557,-876",
+      "level": 45,
+      "spawnLocation": "-498,64,-837",
+      "xp": 700
+    },
+    {
+      "name": "Twisted Ridge",
+      "start": "-1020,-5603",
+      "end": "-910,-5343",
+      "level": 55,
+      "spawnLocation": "-968,94,-5571",
+      "xp": 1185
+    },
+    {
+      "name": "Icy Island",
+      "start": "1001,-3274",
+      "end": "1172,-3430",
+      "level": 40,
+      "spawnLocation": "1109,55,-3334",
+      "xp": 540
+    },
+    {
+      "name": "Imperial Gate",
+      "start": "-1822,-1995",
+      "end": "-2015,-1725",
+      "level": 60,
+      "spawnLocation": "-1914,56,-1808",
+      "xp": 1530
+    },
+    {
+      "name": "Fleris Trail",
+      "start": "-1390,-4594",
+      "end": "-1254,-4351",
+      "level": 60,
+      "xp": 1530,
+      "spawnLocation": "-1314,45,-4507"
+    },
+    {
+      "name": "Orc Battlegrounds",
+      "start": "-1460,-5024",
+      "end": "-1282,-4870",
+      "level": 60,
+      "xp": 1530,
+      "spawnLocation": "1375,43,-4965"
+    },
+    {
+      "name": "Abandoned Pass",
+      "start": "881,-1225",
+      "end": "1019,-1380",
+      "level": 30,
+      "xp": 300,
+      "spawnLocation": "965,36,-1256"
+    },
+    {
+      "name": "Lost Atoll",
+      "start": "-472,-3590",
+      "end": "-688,-3385",
+      "level": 50,
+      "spawnLocation": "-606,40,-3549",
+      "xp": 920
+    },
+    {
+      "name": "Southern Outpost",
+      "start": "-1258,-2204",
+      "end": "-1444,-2306",
+      "level": 80,
+      "spawnLocation": "-1614,69,-2777",
+      "xp": 4160
+    },
+    {
+      "name": "Lighthouse Plateau",
+      "start": "-1633,-2162",
+      "end": "-1445,-2306",
+      "level": 80,
+      "spawnLocation": "-1715,77,-2169",
+      "xp": 4160
+    },
+    {
+      "name": "Corkus Sea Cove",
+      "start": "-1578,-2662",
+      "end": "-1330,-2513",
+      "level": 80,
+      "spawnLocation": "-1492,69,-2620",
+      "xp": 4160
+    }
+]

@@ -1,0 +1,21 @@
+#map {
+	width: 100%; height: 1000px;
+	background: black;
+	margin: 0 auto;
+}
+
+body {
+	background: black;
+}
+
+.guild-name {
+  background: green;
+  border: 2px solid cyan
+}
+
+.leaflet-tooltip-left.guild-name::before {
+  border-left-color: cyan;
+}
+.leaflet-tooltip-right.guild-name::before {
+  border-right-color: cyan;
+}
