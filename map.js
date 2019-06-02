@@ -5,7 +5,10 @@ let rectangles = [];
 let bounds = [];
 
 let guildPrefs = {
-	"Blacklisted": "#323232"
+	"Blacklisted": {
+		"color": "#323232",
+		"prefix": "BLA"
+	}
 }
 
 
@@ -70,15 +73,29 @@ function update() {
 	.then(json => json["territories"])
 	.then(guildTerritories => {
 		Object.keys(guildTerritories).forEach(territory => {
-		let guild = guildTerritories[territory]["guild"]
-		rectangles[territory].setTooltipContent(guild);
-		if (!(Object.keys(guildPrefs).includes(guild))) {
-			guildPrefs[guild] = hex();
-		}
 
-		rectangles[territory].setStyle({
-				color: guildPrefs[guild],
-			})
+		let guild = guildTerritories[territory]["guild"]
+
+		if (!(Object.keys(guildPrefs).includes(guild))) {
+			guildPrefs[guild] = {};
+			guildPrefs[guild]["color"] = hex();
+
+			fetch(`https://api.wynncraft.com/public_api.php?action=guildStats&command=${guild}`)
+				.then(response => response.json())
+				.then(json => {guildPrefs[guild]["prefix"] = json["prefix"]})
+				.then(_ => {
+					rectangles[territory].setStyle({
+						color: guildPrefs[guild]["color"],
+					})
+					rectangles[territory].setTooltipContent(guildPrefs[guild]["prefix"]);
+				})
+		}	else {
+				rectangles[territory].setStyle({
+					color: guildPrefs[guild]["color"],
+				})
+				rectangles[territory].setTooltipContent(guildPrefs[guild]["prefix"]);
+			}	
+		
 	});
 
 	setTimeout(_ => 
