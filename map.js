@@ -14,7 +14,7 @@ let guildPrefs = {
 try {
 	const visited = localStorage.getItem("visited");
 	if (!visited) {
-	    alert("If you would like to add your guild's preferences (color and prefix), please contact brokenmotor in-game or through discord at regale#5688. Enjoy!");
+	    alert("If you would like to add your guild's preferences (color and prefix), please contact brokenmotor in-game or through discord at regale#5688. Credit to dukioooo and the wynndata team for the map tiles. Enjoy!");
 	    localStorage.setItem("visited", true);
 	}
 } catch (e) {
