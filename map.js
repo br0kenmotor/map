@@ -19,7 +19,7 @@ let guildPrefs =
 		"prefix": "Imp"
 	},
 	"Avicia": {
-		"color": "#00187E",
+		"color": "#1010fe",
 		"prefix": "AVO"
 	}
 }
