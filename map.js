@@ -62,7 +62,7 @@ fetch("https://raw.githubusercontent.com/DevScyu/Wynn/master/territories.json")
 	    	bounds[0][0] *= -1;
 	    	bounds[1][0] *= -1;
 	    	let rectangle = L.rectangle(bounds, 
-				{color: "#ff7800", weight: 1}).bindTooltip("",
+				{color: "#ff7800", weight: 3}).bindTooltip("",
 		   		{className: "guild-name", permanent: true, direction:"center"}).openTooltip();
 
 	    	rectangles[territory["name"]] = rectangle;
@@ -100,8 +100,20 @@ function update() {
 					color: guildPrefs[guild]["color"],
 				})
 			}	
-			if (map.getZoom() > 8) {
-				rectangles[territory].setTooltipContent(guildPrefs[guild]["prefix"] + "<br>" + territory);
+			if (map.getZoom() > 7) {
+				rectangles[territory].setTooltipContent(
+					`<div style='text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+					0px 0px 1px ${guildPrefs[guild]["color"]},
+					0px 0px 2px ${guildPrefs[guild]["color"]},
+					0px 0px 3px ${guildPrefs[guild]["color"]},
+					0px 0px 4px ${guildPrefs[guild]["color"]},
+					0px 0px 5px ${guildPrefs[guild]["color"]},
+					0px 0px 6px ${guildPrefs[guild]["color"]} !important;'><div class='identifier'>` +
+					guildPrefs[guild]["prefix"] 
+					+ "</div><br><div class='territory'>" 
+					+ territory 
+					+ "</div></div>"
+					);
 			} else {
 				rectangles[territory].setTooltipContent(" ");
 			}

@@ -12,10 +12,16 @@ body {
   background: transparent !important;
   border: transparent !important;
   color: white !important;
-  font-weight: bold !important;
-  text-shadow: 2px 2px #000000 !important;
   box-shadow: none !important;
   text-align: center !important;
+  overflow-wrap: break-word !important;
+}
+
+.identifier {
+	font-weight: bold !important;
+}
+
+.territory {
 }
 
 .leaflet-tooltip-left.guild-name::before {
