@@ -1,11 +1,17 @@
-#map {
-	width: 100%; height: 1000px;
-	background: black;
-	margin: 0 auto;
+html, body { 
+	height: 100%; 
 }
 
 body {
 	background: black;
+	margin: 0;
+	padding: 0; 
+}
+
+#map {
+	width: 100%; height: 100%;
+	background: black;
+	margin: 0 auto;
 }
 
 .guild-name {
@@ -18,7 +24,7 @@ body {
 }
 
 .identifier {
-	font-weight: bold !important;
+   font-weight: bold !important;
 }
 
 .territory {

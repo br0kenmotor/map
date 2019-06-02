@@ -14,7 +14,7 @@ let guildPrefs = {
 try {
 	const visited = localStorage.getItem("visited");
 	if (!visited) {
-	    alert("If you would like to add your guild's preferences (color and prefix), please contact brokenmotor in-game or through discord at regale#5688. Credit to dukioooo and the wynndata team for the map tiles. Enjoy!");
+	    alert("If you would like to add your guild's preferences (color and prefix), please contact brokenmotor in-game or through discord at regale#5688. Enjoy!");
 	    localStorage.setItem("visited", true);
 	}
 } catch (e) {
@@ -37,7 +37,11 @@ for (let a = 0; a < 3; a++) {
 }
 
 for (let bound of bounds) {
-	images.push(L.imageOverlay(`./public/tiles/${bound[0][1]}/${bound[0][0]}.png`, bound));
+	images.push(L.imageOverlay(`./public/tiles/${bound[0][1]}/${bound[0][0]}.png`, 
+		bound, {
+			attribution: "<a href='https://wynndata.tk/map'>WYNNDATA</a>"
+			}
+		));
 }
 
 for (let image of images) {
