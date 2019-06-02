@@ -37,7 +37,7 @@ for (let a = 0; a < 3; a++) {
 }
 
 for (let bound of bounds) {
-	images.push(L.imageOverlay(`./tiles/${bound[0][1]}/${bound[0][0]}.png`, bound));
+	images.push(L.imageOverlay(`./public/tiles/${bound[0][1]}/${bound[0][0]}.png`, bound));
 }
 
 for (let image of images) {
