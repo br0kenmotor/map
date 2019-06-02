@@ -23,7 +23,9 @@ try {
 
 
 const map = L.map("map", {    	
-	crs: L.CRS.Simple
+	crs: L.CRS.Simple,
+	minZoom: 6,
+    maxZoom: 10
 });	
 
 map.fitBounds([[0, -4], [6, 2]]);
