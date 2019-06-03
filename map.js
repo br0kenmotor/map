@@ -4,25 +4,15 @@ let guildTerritories = [];
 let images = [];
 let rectangles = [];
 let bounds = [];
-let guildPrefs = 
+let guilds = [];
+let colors = 
 {
-	"Blacklisted": {
-		"color": "#323232",
-		"prefix": "BLA"
-	},
-	"Paladins United": {
-		"color": "#fff0f5",
-		"prefix": "PUN"
-	},
-	"Imperial": {
-		"color": "#990033",
-		"prefix": "Imp"
-	},
-	"Avicia": {
-		"color": "#1010fe",
-		"prefix": "AVO"
-	}
+	"Blacklisted": "#323232",
+	"Paladins United": "#fff0f5",
+	"Imperial":  "#990033",
+	"Avicia":  "#1010fe",
 }
+
 
 try {
 	const visited = localStorage.getItem("visited");
@@ -81,8 +71,14 @@ fetch("https://raw.githubusercontent.com/DevScyu/Wynn/master/territories.json")
 	    	bounds[0][0] *= -1;
 	    	bounds[1][0] *= -1;
 	    	let rectangle = L.rectangle(bounds, 
-				{color: "#ff7800", weight: 3}).bindTooltip("",
-		   		{className: "guild-name", permanent: true, direction:"center"}).openTooltip();
+				{color: "#ff7800", weight: 2})
+
+	    	rectangle.bindTooltip("", {
+		   			className: "guild-name", 
+		   			permanent: true, 
+		   			direction:"center"}).openTooltip();
+
+	    	rectangle.bindPopup("Loading...").openPopup();
 
 	    	rectangles[territory["name"]] = rectangle;
 	  		rectangle.addTo(map);
@@ -94,55 +90,77 @@ fetch("https://raw.githubusercontent.com/DevScyu/Wynn/master/territories.json")
 
 
 function update() {
+
 	fetch("https://api.wynncraft.com/public_api.php?action=territoryList")
 	.then(response => response.json())
 	.then(json => json["territories"])
-	.then(guildTerritories => {
-		Object.keys(guildTerritories).forEach(territory => {
+	.then(territories => {
+		guildTerritories = territories;
+		render();
+	setTimeout(_ => 
+		{ console.log("Updating..."); update(); }, 3000);
+	})
+}
 
+function render() {
+
+	Object.keys(guildTerritories).forEach(territory => {
 			let guild = guildTerritories[territory]["guild"];
 
-			if (!(Object.keys(guildPrefs).includes(guild))) {
-				guildPrefs[guild] = {};
-				guildPrefs[guild]["color"] = hex();
+			if (!(Object.keys(colors).includes(guild))) {
+				colors[guild] = hex();
+			}
+
+			rectangles[territory].setStyle({
+				color: colors[guild],
+			})
+
+
+			if (!(Object.keys(guilds).includes(guild))) {
 
 				fetch(`https://api.wynncraft.com/public_api.php?action=guildStats&command=${guild}`)
 					.then(response => response.json())
-					.then(json => {guildPrefs[guild]["prefix"] = json["prefix"]})
-					.then(_ => {
-						rectangles[territory].setStyle({
-							color: guildPrefs[guild]["color"],
-						})
+					.then(json => {
+						guilds[guild] = json
 					})
+					.then(_ => {
+					    setPopup(guild, territory);	
+					});
+
 			} else {
 				rectangles[territory].setStyle({
-					color: guildPrefs[guild]["color"],
+					color: colors[guild],
 				})
+
+				setPopup(guild, territory);
 			}	
+
 			if (map.getZoom() > 7) {
 				rectangles[territory].setTooltipContent(
 					`<div style='text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
-					0px 0px 1px ${guildPrefs[guild]["color"]},
-					0px 0px 2px ${guildPrefs[guild]["color"]},
-					0px 0px 3px ${guildPrefs[guild]["color"]},
-					0px 0px 4px ${guildPrefs[guild]["color"]},
-					0px 0px 5px ${guildPrefs[guild]["color"]},
-					0px 0px 6px ${guildPrefs[guild]["color"]} !important;'><div class='identifier'>` +
-					guildPrefs[guild]["prefix"] 
-					+ "</div><br><div class='territory'>" 
+					0px 0px 1px ${colors[guild]},
+					0px 0px 2px ${colors[guild]},
+					0px 0px 3px ${colors[guild]},
+					0px 0px 4px ${colors[guild]},
+					0px 0px 5px ${colors[guild]},
+					0px 0px 6px ${colors[guild]} !important;'><div class='identifier'>` +
+					guilds[guild]["prefix"]
+					+ "</div><div class='territory'>" 
 					+ territory 
 					+ "</div></div>"
 					);
 			} else {
 				rectangles[territory].setTooltipContent(" ");
 			}
-		
-	});
 
-	setTimeout(_ => 
-		{ console.log("Updating..."); update(); }, 1000);
-	})
+
+			
+	});
 }
+
+map.on('zoomend', _ => {
+	render();
+})
 
 function hex() {
 	return "#000000"
@@ -150,5 +168,21 @@ function hex() {
 		(~~(Math.random()*16)).toString(16));
 }
 
+function setPopup(guild, territory){
+	let diff = "";
+
+	if (new Date() > new Date(Date.parse(guildTerritories[territory]["acquired"]))) {
+		diff = (new Date() - new Date(Date.parse(guildTerritories[territory]["acquired"]))) / 60000
+	} else {
+	 	diff = (new Date(Date.parse(guildTerritories[territory]["acquired"])) - new Date()) / 60000
+	}
+
+	rectangles[territory].setPopupContent(`<div id="info-popup">
+		<div><b>${territory}</b></div>
+		<div><a target="_blank" href="https://www.wynndata.tk/stats/guild/${guild}">${guild}</a> [${guilds[guild]["level"]}]</div>
+		<div>Aqcuired on ${guildTerritories[territory]["acquired"]}</div>
+		<div>Held for ${Math.floor(diff)} minutes.</div>
+		</div>`);	
+}
 
 }

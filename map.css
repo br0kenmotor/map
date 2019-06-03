@@ -21,10 +21,13 @@ body {
   box-shadow: none !important;
   text-align: center !important;
   overflow-wrap: break-word !important;
+  white-space: normal !important;
+  width: 75px;
 }
 
 .identifier {
    font-weight: bold !important;
+   margin: 0 0 0 0 !important;
 }
 
 .territory {
