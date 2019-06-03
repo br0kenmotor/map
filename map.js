@@ -98,12 +98,11 @@ function update() {
 		guildTerritories = territories;
 		render();
 	setTimeout(_ => 
-		{ console.log("Updating..."); update(); }, 3000);
+		{ console.log("Updating..."); update(); }, 1000);
 	})
 }
 
 function render() {
-
 	Object.keys(guildTerritories).forEach(territory => {
 			let guild = guildTerritories[territory]["guild"];
 
@@ -165,20 +164,45 @@ function setContent(guild, territory){
 	} else {
 		rectangles[territory].setTooltipContent(" ")
 	}
-	let diff = "";
 
-	if (new Date() > new Date(Date.parse(guildTerritories[territory]["acquired"]))) {
-		diff = (new Date() - new Date(Date.parse(guildTerritories[territory]["acquired"]))) / 60000
-	} else {
-	 	diff = (new Date(Date.parse(guildTerritories[territory]["acquired"])) - new Date()) / 60000
-	}
+	let diff = (new Date(new Date().toLocaleString("en-US", {timeZone: "America/New_York"})) - new Date(Date.parse(guildTerritories[territory]["acquired"])));
+
+	let day, hour, minute, seconds;
+    seconds = Math.floor(diff / 1000);
+    minute = Math.floor(seconds / 60);
+    seconds = seconds % 60;
+    hour = Math.floor(minute / 60);
+    minute = minute % 60;
+    day = Math.floor(hour / 24);
+    hour = hour % 24;
+
+    time = {"day": day, "hour": hour, "minute": minute, "second": seconds}
+
+    str = ""
+
+    for (let unit of Object.keys(time)) {
+    	if (time[unit] > 0 || unit === "second") {
+    		if (unit === "second" && ((Object.values(time)).filter((_, i) => i != 4)).filter(v => v > 0).length) {
+    			str += " and "
+    		}
+
+    		str += time[unit] + " " + unit;
+
+    		if (time[unit] !== 1) {
+    			str += "s"
+    		}
+    		if (unit !== "second" && ((Object.values(time)).filter(v => v > 0).length > 2)) {
+    			str += ", "
+    		} 
+    	}
+    }
 
 	rectangles[territory].setPopupContent(`<div id="info-popup">
 		<div><b>${territory}</b></div>
 		<div><a target="_blank" href="https://www.wynndata.tk/stats/guild/${guild}">${guild}</a> [${guilds[guild]["level"]}]</div>
 		<div>Aqcuired on ${guildTerritories[territory]["acquired"]}</div>
-		<div>Held for ${Math.floor(diff)} minutes.</div>
+		<div>Held for ${str}.</div>
 		</div>`);	
-}
+	}
 
 }
