@@ -124,6 +124,7 @@ function render() {
 					})
 					.then(_ => {
 					    setContent(guild, territory);	
+
 					});
 
 			} else {
@@ -134,7 +135,26 @@ function render() {
 				setContent(guild, territory);
 			}	
 					
-	});
+			if (map.getZoom() > 7) {
+				rectangles[territory].setTooltipContent(
+					`<div style='text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black,
+					0px 0px 1px ${colors[guild]},
+					0px 0px 2px ${colors[guild]},
+					0px 0px 3px ${colors[guild]},
+					0px 0px 4px ${colors[guild]},
+					0px 0px 5px ${colors[guild]},
+					0px 0px 6px ${colors[guild]} !important;'><div class='identifier'>` +
+					guilds[guild]["prefix"]
+					+ "</div><div class='territory'>" 
+					+ territory 
+					+ "</div></div>"
+					);
+			} else {
+				rectangles[territory].setTooltipContent(" ");
+			}
+
+
+				});
 }
 
 map.on('zoomend', _ => {
@@ -204,5 +224,6 @@ function setContent(guild, territory){
 		<div>Held for ${str}.</div>
 		</div>`);	
 	}
+
 
 }
