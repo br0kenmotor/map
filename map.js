@@ -5,6 +5,7 @@ let images = [];
 let rectangles = [];
 let bounds = [];
 let guilds = [];
+let prevZoom = 7;
 let colors = 
 {
 	"Blacklisted": "#323232",
@@ -25,7 +26,7 @@ try {
 }	
 
 
-const map = L.map("map", {    	
+const map = L.map("map", {  
 	crs: L.CRS.Simple,
 	minZoom: 6,
     maxZoom: 10
@@ -98,7 +99,7 @@ function update() {
 		guildTerritories = territories;
 		render();
 	setTimeout(_ => 
-		{ console.log("Updating..."); update(); }, 1000);
+		{ console.log("Updating..."); update(); }, 5000);
 	})
 }
 
@@ -139,7 +140,14 @@ function render() {
 }
 
 map.on('zoomend', _ => {
-	render();
+	console.log(prevZoom + " -> " + map.getZoom());
+	if ((map.getZoom() >= 7 && prevZoom <= 7) || (map.getZoom() <= 7 && prevZoom >= 7)) {
+		for (let territory of Object.keys(rectangles)) {
+			setContent(guildTerritories[territory]["guild"], territory);
+		}
+	}
+
+	prevZoom = map.getZoom();
 })
 
 function hex() {
