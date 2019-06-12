@@ -58,7 +58,7 @@ function run() {
 		"Paladins United": "#fff0f5",
 		"Imperial":  "#990033",
 		"Avicia":  "#1010fe",
-		"BuildCraftia": "#18FD00",
+		"BuildCraftia": "#09EA2B",
 	}
 
 	//grabbing options elements
