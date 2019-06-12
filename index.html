@@ -17,7 +17,34 @@
 
     <script src="./map.js"></script>
 </head>
-<body onload="run()">
+<body onload="run()" onkeyup="toggle()">
+		<div id="info">
+			<span class="info-text menu-text menu-title guild-name">Press any key for Menu & Leaderboards</span>
+		</div>
+		<div id="menu">
+			<div style="margin-left: 5%; max-height:50%">
+				<p class="menu-text menu-title guild-name">Leaderboard</p>
+				<div id="guild-leaderboard" class="menu-text guild-name">
+					<p class="menu-text guild-name">Loading...</p>
+				</div>
+		    </div>
+		    <hr>
+		    <div style="margin-left: 5%">
+		    	<p class="menu-text menu-title guild-name">Options</p>
+			    <div class="slidecontainer">
+  					<input type="range" min="1" max="10" value="5" class="slider" id="rate-option"/>
+  					<span class="menu-text guild-name">Refresh Rate: <span id="rate-display">5</span>s</span>
+				</div>
+				<br>
+				<div>
+					<span class="menu-text guild-name"><input type="checkbox" checked="true" id="territory-toggle"> Territories</span> <br>
+					<span class="menu-text guild-name"><input type="checkbox" checked="true" id="territory-names"> Territory Names</span> <br>
+					<span class="menu-text guild-name"><input type="checkbox" checked="true" id="territory-guilds"> Guild Names</span> <br>
+				</div>
+				
+
+		    </div>
+		</div>
 		<div id="map"></div>
 </body>
 </html>
