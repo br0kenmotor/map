@@ -119,11 +119,9 @@ function run() {
 		    .then(json => {
 			   for (let territory of json) {
 			    let bounds = [territory["start"].split(","), territory["end"].split(",")];
-
 			    for (let i in bounds) {	
 			    	bounds[i][0] *= .001
 			   		bounds[i][1] *= .001
-
 			   	}
 
 		    	bounds[0].reverse();
@@ -207,9 +205,7 @@ function run() {
 					setContent(guild, territory);
 				}
 			});
-
 		updateLeaderboard();	
-
 	}
 
 	//on zoom end, update map based on zoom
