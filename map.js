@@ -59,6 +59,7 @@ function run() {
 		"Imperial":  "#990033",
 		"Avicia":  "#1010fe",
 		"BuildCraftia": "#09EA2B",
+		"Kingdom of Foxes": "#ff8800"
 	}
 
 	//grabbing options elements
