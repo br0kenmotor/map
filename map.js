@@ -288,7 +288,7 @@ function run() {
 	}
 
 	function updateLeaderboard() {
-			let guildsSorted = Object.keys(guilds).sort((a, b) => (guilds[b]["territories"] - guilds[a]["territories"]));
+			let guildsSorted = (Object.keys(guilds).filter(guild => guilds[guild]["territories"] > 0)).sort((a, b) => (guilds[b]["territories"] - guilds[a]["territories"]));
 			for (let key of guildsSorted) {
 				leaderboard[key] = guilds[key];
 			}
