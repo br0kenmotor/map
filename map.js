@@ -59,6 +59,8 @@ function run() {
 		"Imperial":  "#990033",
 		"Avicia":  "#1010fe",
 		"BuildCraftia": "#09EA2B",
+		"Caeruleum Order": "#012142",
+		"The Simple Ones": "#0fcad6",
 		"Kingdom Foxes": "#ff8800"
 	}
 
