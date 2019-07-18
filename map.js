@@ -75,7 +75,7 @@ function run() {
 
 
 	let territoryToggle = true;
-	let territoryNames = true;
+	let territoryNames = false;
 	let guildNames = true;
 
 	slider.oninput = function() {
@@ -143,14 +143,14 @@ function run() {
 		    	rectangle.bindPopup("Loading...").openPopup();
 
 		    	rectangles[territory["name"]] = rectangle;
-		  		rectangle.addTo(map);
+		    	rectangle.addTo(map);
 		    	}	
 			}).then(_ => {
 			  	update();
 			});
 
 
-	//calling wynn API every 1-10 seconds to check territory ownership
+	//calling wynn API every refresh seconds to check territory ownership
 	function update() {
 		fetch("https://api.wynncraft.com/public_api.php?action=territoryList")
 		.then(response => response.json())
