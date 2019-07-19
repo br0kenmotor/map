@@ -61,7 +61,8 @@ function run() {
 		"BuildCraftia": "#09EA2B",
 		"Caeruleum Order": "#012142",
 		"The Simple Ones": "#0fcad6",
-		"Kingdom Foxes": "#ff8800"
+		"Kingdom Foxes": "#ff8800",
+		"Emorians": "#1b5ff1" 
 	}
 
 	//grabbing options elements
