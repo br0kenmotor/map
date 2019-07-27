@@ -62,7 +62,8 @@ function run() {
 		"Caeruleum Order": "#012142",
 		"The Simple Ones": "#0fcad6",
 		"Kingdom Foxes": "#ff8800",
-		"Emorians": "#595018" 
+		"Fantasy": "#21c8ec",
+		"Emorians": "#1b5ff1" 
 	}
 
 	//grabbing options elements
