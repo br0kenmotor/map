@@ -48,10 +48,11 @@ function run() {
 	//initializing variables
 	let guildTerritories = [];
 	let rectangles = [];
+	let cdRectangles = [];
 	let guilds = [];
 	let leaderboard = [];
 	let prevZoom = 7;
-	let refresh = 5;
+	let refresh = 60;
 	let colors = 
 	{
 		"Blacklisted": "#323232",
@@ -75,10 +76,12 @@ function run() {
 	let checkboxNames = document.getElementById("territory-names");
 	let checkboxGuilds = document.getElementById("territory-guilds"); 
 
-
 	let territoryToggle = true;
 	let territoryNames = false;
 	let guildNames = true;
+
+	let counter = refresh
+	document.getElementById("countdown").innerHTML = counter;
 
 	slider.oninput = function() {
 		refresh = this.value;
@@ -144,6 +147,8 @@ function run() {
 
 		    	rectangle.bindPopup("Loading...").openPopup();
 
+
+
 		    	rectangles[territory["name"]] = rectangle;
 		    	rectangle.addTo(map);
 		    	}	
@@ -154,6 +159,8 @@ function run() {
 
 	//calling wynn API every refresh seconds to check territory ownership
 	function update() {
+		counter = refresh;
+
 		fetch("https://api.wynncraft.com/public_api.php?action=territoryList")
 		.then(response => response.json())
 		.then(json => json["territories"])
@@ -211,6 +218,23 @@ function run() {
 				}
 			});
 		updateLeaderboard();	
+	}
+
+	tick()
+
+	function tick() {
+		console.log(cdRectangles)
+		setTimeout(_ => {
+			tick()
+		}, 1000)
+
+		counter += -1;
+		document.getElementById("countdown").innerHTML = counter;
+
+		Object.keys(cdRectangles).forEach(territory => {
+				let guild = guildTerritories[territory]["guild"];
+				setContent(guildTerritories[territory]["guild"], territory)
+		})
 	}
 
 	//on zoom end, update map based on zoom
@@ -287,6 +311,37 @@ function run() {
 			<div>Aqcuired on ${guildTerritories[territory]["acquired"]}</div>
 			<div>Held for ${str}.</div>
 			</div>`);	
+
+		if (((diff / 1000) < 180) && (!Object.keys(cdRectangles).includes(territory))) {
+			let cdRectangle = L.rectangle(rectangles[territory].getBounds(), {
+				color: "#FF000",
+				weight: 5
+			})
+			cdRectangle.bindPopup(`<div id="info-popup">
+			<div><b>${territory}</b></div>
+			<div><a target="_blank" href="https://www.wynndata.tk/stats/guild/${guild}">${guild}</a> [${guilds[guild]["level"]}]</div>
+			<div>Aqcuired on ${guildTerritories[territory]["acquired"]}</div>
+			<div>Held for ${str}.</div>
+			</div>`).openPopup();
+			cdRectangle.setStyle({
+        		color: "#FF0000",
+        	})
+
+		    cdRectangles[territory] = cdRectangle;
+		    cdRectangle.addTo(map);
+		    console.log("ADDING " + territory)
+		} else if (((diff / 1000) > 180) && Object.keys(cdRectangles).includes(territory)) {
+			console.log("REMOVING " + territory)
+			cdRectangles[territory].remove();
+			delete cdRectangles[territory];
+		} else if (Object.keys(cdRectangles).includes(territory)) {
+			cdRectangles[territory].setPopupContent(`<div id="info-popup">
+			<div><b>${territory}</b></div>
+			<div><a target="_blank" href="https://www.wynndata.tk/stats/guild/${guild}">${guild}</a> [${guilds[guild]["level"]}]</div>
+			<div>Aqcuired on ${guildTerritories[territory]["acquired"]}</div>
+			<div>Held for ${str}.</div>
+			</div>`);	
+		}	
 	}
 
 	function updateLeaderboard() {
