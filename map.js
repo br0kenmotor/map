@@ -65,7 +65,7 @@ function run() {
 		"Kingdom Foxes": "#ff8800",
 		"Fantasy": "#21c8ec",
 		"Emorians": "#1b5ff1",
-		"House of Sentinels": "#dc143c"
+		"House of Sentinels": "#580000"
 	}
 
 	//grabbing options elements
