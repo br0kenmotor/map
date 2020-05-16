@@ -162,7 +162,7 @@ function run() {
 	function update() {
 		counter = refresh;
 
-		fetch("https://api.wynncraft.com/public_api.php?action=territoryList")
+		fetch("https://api-legacy.wynncraft.com/public_api.php?action=territoryList")
 		.then(response => response.json())
 		.then(json => json["territories"])
 		.then(territories => {
@@ -184,7 +184,7 @@ function run() {
 
 				if (!(Object.keys(guilds).includes(guild))) {
 
-					fetch(`https://api.wynncraft.com/public_api.php?action=guildStats&command=${guild}`)
+					fetch(`https://api-legacy.wynncraft.com/public_api.php?action=guildStats&command=${guild}`)
 						.then(response => response.json())
 						.then(json => {
 							guilds[guild] = json;
